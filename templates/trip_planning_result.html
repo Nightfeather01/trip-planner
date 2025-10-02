@@ -1,0 +1,351 @@
+{% extends "base.html" %}
+<!--設定每個景點類型的顏色-->
+{% set type_colors = {
+    'restaurant': '#FF0000',
+    'tourist_attraction': '#00FF00',
+    'museum': '#0000FF',
+    'park': '#FFA500',
+    'bar': '#800080',
+    'cafe': '#795548',
+    'shopping_mall': '#FF9800',
+    'zoo': '#4CAF50'
+} %}
+
+{% block content %}
+<div class="position-relative vh-100">
+    <div id="map" class="w-100 h-100"></div>
+
+    <div class="position-absolute top-0 start-0 m-3" style="width: 400px; max-height: 90vh; z-index: 1000;">
+
+        <div class="card bg-white bg-opacity-90">
+
+            <div class="card-header p-3">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#journey">行程</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#preferences">偏好</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#recommended">推薦景點</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card-body tab-content" style="max-height: calc(90vh - 76px); overflow-y: auto;">
+
+                <div id="journey" class="tab-pane fade show active">
+                    {% set current_date = none %}
+                    {% set base_date = journey[0].place_start_datetime.strftime('%Y-%m-%d') %}
+                    {% set vars = {'route_index': 0} %}  {# 使用字典來存儲索引值 #}
+
+                    {% for place in journey %}
+                        {% set place_date = place.place_start_datetime.strftime('%Y-%m-%d') %}
+
+                        {% if loop.first or place_date != journey[loop.index0 - 1].place_start_datetime.strftime('%Y-%m-%d') %}
+                            {% set current_date = place_date %}
+                            {% set day_number = ((place.place_start_datetime - journey[0].place_start_datetime).days + 1) %}
+                            {% set weekday_map = {
+                                '0': '週日', '1': '週一', '2': '週二',
+                                '3': '週三', '4': '週四', '5': '週六', '6': '週日'
+                            } %}
+                            {% set weekday = weekday_map[place.place_start_datetime.strftime('%w')] %}
+                            <h5 class="fw-bold mb-3">第{{ day_number }}天 {{ place.place_start_datetime.strftime('%m/%d') }} {{ weekday }}</h5>
+                        {% endif %}
+
+                        <div class="place-item mb-3 border-start border-4 rounded shadow-sm"
+                             data-place-id="{{ place.place_id }}"
+                             data-lat="{{ place.lat }}"
+                             data-lng="{{ place.lng }}"
+                             data-rating="{{ place.rating }}"
+                             data-reviews="{{ place.user_rating_totals }}"
+                             data-price-level="{{ place.price_level }}"
+                             data-opening-hours="{{ place.opening_hour|tojson }}"
+                             data-start-time="{{ place.place_start_datetime }}"
+                             style="background-color: {{ type_colors[place.types[0]] }}20;
+                             border-left-color: {{ type_colors[place.types[0]] }}">
+                            <div class="p-3">
+                                <h6 class="fw-bold mb-2">{{ place.place_name }}</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-muted">
+                                        {{ place.place_start_datetime.strftime('%H:%M') }} -
+                                        {{ place.place_end_datetime.strftime('%H:%M') }}
+                                    </span>
+                                    <div class="rating-display">
+                                        {{ place.rating|generate_stars }}
+                                        <small class="text-muted">({{ place.user_rating_totals }})</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% if not loop.last %}
+                            {% set next_place = journey[loop.index0 + 1] %}
+                            {% if place.place_start_datetime.strftime('%Y-%m-%d') == next_place.place_start_datetime.strftime('%Y-%m-%d') %}
+                                {% if route.routes_data and vars.route_index < route.routes_data|length %}
+                                    <div class="transit-info mb-3 ps-4">
+                                    {% for step in route.routes_data[vars.route_index].steps %}
+                                        <div class="transit-step d-flex align-items-center mb-1">
+                                            {% if step.travel_mode == 'WALKING' %}
+                                                <i class="bi bi-person-walking"></i>
+                                            {% elif step.travel_mode == 'TRANSIT' %}
+                                                <i class="bi bi-bus-front"></i>
+                                            {% elif step.travel_mode == 'DRIVING' %}
+                                                <i class="bi bi-car-front"></i>
+                                            {% elif step.travel_mode == 'BICYCLING' %}
+                                                <i class="bi bi-bicycle"></i>
+                                            {% endif %}
+                                            <span class="ms-2 small">{{ step.duration }}</span>
+                                            {% if step.travel_mode == 'TRANSIT' %}
+                                                <span class="ms-2 small text-muted">{{ step.departure_stop }} → {{ step.arrival_stop }}</span>
+                                            {% endif %}
+                                        </div>
+                                    {% endfor %}
+                                    </div>
+                                    {% if vars.update({'route_index': vars.route_index + 1}) %}{% endif %}
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+
+                <div id="preferences" class="tab-pane fade">
+                    <div class="container-fluid p-3">
+                        <div class="row g-3">
+                            <!-- Basic Info -->
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm preference-item">
+                                    <div class="card-header bg-warning bg-opacity-10 border-0">
+                                        <h5 class="card-title mb-0 text-center text-dark fw-bold fs-5">基本資訊</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">UUID</div>
+                                            <div class="col-8">{{ form_data.uuid }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">旅行名稱</div>
+                                            <div class="col-8">{{ form_data.p_name }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">出遊縣市</div>
+                                            <div class="col-8">{{ form_data.city }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">預算限制</div>
+                                            <div class="col-8">
+                                                {% set budget_level = form_data.budget + 1 %}
+                                                {% for i in range(budget_level) %}💰{% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 text-muted">旅遊模式</div>
+                                            <div class="col-8">{{ '快節奏' if form_data.travel_mode else '慢節奏' }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Time Info -->
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm preference-item">
+                                    <div class="card-header bg-warning bg-opacity-10 border-0">
+                                        <h5 class="card-title mb-0 text-center text-dark fw-bold fs-5">時間安排</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">起程時間</div>
+                                            <div class="col-8">{{ form_data.departure_datetime }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">回程時間</div>
+                                            <div class="col-8">{{ form_data.return_datetime }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">每日啟程</div>
+                                            <div class="col-8">{{ form_data.daily_depart_time }}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 text-muted">每日回程</div>
+                                            <div class="col-8">{{ form_data.daily_return_time }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Weights -->
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm preference-item">
+                                    <div class="card-header bg-warning bg-opacity-10 border-0">
+                                        <h5 class="card-title mb-0 text-center text-dark fw-bold fs-5">權重設置</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">預算權重</div>
+                                            <div class="col-8">{{ form_data.price_level_weight }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">評分權重</div>
+                                            <div class="col-8">{{ form_data.rating_weight }}</div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-4 text-muted">評論數權重</div>
+                                            <div class="col-8">{{ form_data.user_rating_total_weight }}</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4 text-muted">迭代次數</div>
+                                            <div class="col-8">{{ form_data.ngen }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Keywords -->
+                            <div class="col-12">
+                                <div class="card border-0 shadow-sm preference-item">
+                                    <div class="card-header bg-warning bg-opacity-10 border-0">
+                                        <h5 class="card-title mb-0 text-center text-dark fw-bold fs-5">偏好設置</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <div class="text-muted mb-2">景點類型</div>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                {% for type_id, keywords in form_data.place_types_keywords.items() %}
+                                                    {% if type_id|int <= 6 %}
+                                                        {% for keyword in keywords %}
+                                                            {% set type_name = '' %}
+                                                            {% if type_id == '1' %}{% set type_name = 'bar' %}
+                                                            {% elif type_id == '2' %}{% set type_name = 'cafe' %}
+                                                            {% elif type_id == '3' %}{% set type_name = 'museum' %}
+                                                            {% elif type_id == '4' %}{% set type_name = 'park' %}
+                                                            {% elif type_id == '5' %}{% set type_name = 'shopping_mall' %}
+                                                            {% elif type_id == '6' %}{% set type_name = 'zoo' %}
+                                                            {% endif %}
+                                                            <span class="badge bg-opacity-10 text-{{ type_colors[type_name] }}"
+                                                                  style="background-color: {{ type_colors[type_name] }}20">
+                                                                {{ keyword }}
+                                                            </span>
+                                                        {% endfor %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="text-muted mb-2">觀光景點類型</div>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                {% for keyword in form_data.place_types_keywords.get('7', []) %}
+                                                    <span class="badge bg-opacity-10" style="background-color: #00FF00">{{ keyword }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="text-muted mb-2">食物類型</div>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                {% for keyword in form_data.place_types_keywords.get('8', []) %}
+                                                    <span class="badge bg-opacity-10" style="background-color: #FF0000">{{ keyword }}</span>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="recommended" class="tab-pane fade">
+                    <div class="filter-sort-section mb-3">
+                        <div class="row g-2">
+                            <div class="col-12">
+                                <select id="placeFilter" class="form-select">
+                                    <option value="all">全部景點</option>
+                                    <option value="high_rating">高評分(4.5+)</option>
+                                    <option value="budget">平價景點</option>
+                                    {% if '7' in form_data.place_types_keywords %}
+                                    <option value="tourist_attraction">觀光景點</option>
+                                    {% endif %}
+                                    {% if '8' in form_data.place_types_keywords %}
+                                    <option value="restaurant">餐廳</option>
+                                    {% endif %}
+                                    {% if '1' in form_data.place_types_keywords %}
+                                    <option value="bar">酒吧</option>
+                                    {% endif %}
+                                    {% if '2' in form_data.place_types_keywords %}
+                                    <option value="cafe">咖啡廳</option>
+                                    {% endif %}
+                                    {% if '3' in form_data.place_types_keywords %}
+                                    <option value="museum">博物館</option>
+                                    {% endif %}
+                                    {% if '4' in form_data.place_types_keywords %}
+                                    <option value="park">公園</option>
+                                    {% endif %}
+                                    {% if '5' in form_data.place_types_keywords %}
+                                    <option value="shopping_mall">購物中心</option>
+                                    {% endif %}
+                                    {% if '6' in form_data.place_types_keywords %}
+                                    <option value="zoo">動物園</option>
+                                    {% endif %}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="recommendedList">
+                    {% for place in recommended_places|sort_by_rating %}
+                        <div class="recommended-place mb-3 border-start border-4 rounded shadow-sm"
+                             data-place-id="{{ place.place_id }}"
+                             data-lat="{{ place.lat }}"
+                             data-lng="{{ place.lng }}"
+                             style="background-color: {{ type_colors[place.types[0]] }}20;
+                                    border-left-color: {{ type_colors[place.types[0]] }}">
+                            <div class="p-3">
+                                <h6 class="fw-bold mb-2">{{ place.place_name }}</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="rating-display">
+                                            {{ place.rating|generate_stars }}
+                                            <small class="text-muted">({{ place.user_rating_totals }})</small>
+                                        </div>
+                                    <div>
+
+                                        <div class="price-level mt-1">
+                                            {% set price = place.price_level + 1 %}
+                                            {% for _ in range(price) %}
+                                                <i class="bi bi-currency-dollar text-success"></i>
+                                            {% endfor %}
+                                            {% for _ in range(5 - price) %}
+                                                <i class="bi bi-currency-dollar text-muted"></i>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                    <div class="place-type-badge">
+                                        <span class="badge rounded-pill"
+                                              style="background-color: {{ type_colors[place.types[0]] }}">
+                                            {{ place.types[0] }}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+// 將後端數據傳遞給JavaScript
+const journeyData = {{ journey|tojson|safe }};
+const recommendedPlaces = {{ recommended_places|tojson|safe }};
+const routeData = {{ route|tojson|safe }};
+const formData = {{ form_data|tojson|safe }};  // 添加這行
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}&libraries=geometry" async defer></script>
+<script src="{{ url_for('static', filename='js/trip_planning_result.js') }}"></script>
+{% endblock %}

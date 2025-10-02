@@ -1,0 +1,358 @@
+{% extends "base.html" %}
+
+{% block head %}  {% endblock %}
+
+{% block title %} Trip Planner {% endblock %}
+
+{% block content %}
+    <!--完整navbar-->
+    <header class="border-bottom border-5 border-warning">
+        <!--響應式摺疊的淺色拓寬navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <div class="container">
+                <!--品牌圖片-->
+                <a class="navbar-brand py-0" href="#">
+                    <img src="images/logo.png" alt="拼拼 LOGO" width="111" height="40" class="d-inline-block align-top">
+                </a>
+                <!--摺疊按鈕-->
+                <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--導航內容-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--其他導航項目-->
+                        <li class="nav-item active">
+                            <a class="nav-link link-dark px-md-4 fw-bold fs-5" href="#">匯入行程</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link link-dark px-md-4 fw-bold fs-5" href="#">分享行程</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link link-dark px-md-4 fw-bold fs-5" href="#">購買紀錄</a>
+                        </li>
+                        <!--設定下拉選單-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-dark px-md-4 fw-bold fs-5" href="#" id="navbarDropdownSettings" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                設定
+                            </a>
+                            <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="navbarDropdownSettings">
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">興趣偏好</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">付款方式</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">個人資料</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">帳號設定</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">系統設定</a></li>
+                            </ul>
+                        </li>
+                        <!--幫助下拉選單-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-dark px-md-4 fw-bold fs-5" href="#" id="navbarDropdownHelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                幫助
+                            </a>
+                            <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="navbarDropdownHelp">
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">最新消息</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">常見問題</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">服務條款</a></li>
+                                <li><a class="dropdown-item link-dark px-md-4 fw-bold fs-5" href="#">聯絡我們</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--登入註冊按鈕-->
+                    <div class="justify-content-end d-flex align-items-center">
+                        <!--通知與幫助圖標-->
+                        <a class="nav-link me-3" href="#">
+                            <img src="images/notification.png" alt="通知" width="30" height="30">
+                        </a>
+                        <a class="nav-link me-3" href="#">
+                            <img src="images/question.png" alt="幫助" width="30" height="30">
+                        </a>
+                        <!--登入註冊-->
+                        <button class="btn btn-warning btn-warning-hover me-3 rounded-pill fs-5" data-bs-toggle="modal" data-bs-target="#login">登入</button>
+                        <button class="btn btn-outline-secondary btn-outline-secondary-hover rounded-pill border-2 fs-5" data-bs-toggle="modal" data-bs-target="#register">註冊</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="py-3 py-md-5 bg-light">
+        <div class="container">
+          <h1 class="fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-4 letter-spacing-22">Trip Planner｜您旅行時的好幫手</h1>
+            <div class="row align-items-center">
+                <div class="row">
+                  <div class="col-md-auto col-lg-7">
+                    <img src="images/latestNews.png" alt="latestNews1" class="img-fluid rounded-img">
+                  </div>
+                  <div class="col-md-auto col-lg-7">
+                    <img src="images/latestNews.png" alt="latestNews1" class="img-fluid rounded-img">
+                  </div>
+                  <div class="col-md-auto col-lg-7">
+                    <img src="images/latestNews.png" alt="latestNews1" class="img-fluid rounded-img">
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--slider: latestNews-->
+    <section id="latestNews">
+        <div class="slider-container">
+            <h1 class="fs-lg-1 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">
+                最新消息
+            </h1>
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/latestNews.png" alt="latestNews1">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="latestNews fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">最新消息: 機比機比加八加八</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/latestNews.png" alt="latestNews">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                              <h2 class="latestNews fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">最新消息: 機比機比加八加八</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/latestNews.png" alt="latestNews">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="latestNews fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">最新消息: 機比機比加八加八</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/latestNews.png" alt="latestNews">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="latestNews fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">最新消息: 機比機比加八加八</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                </div>
+                <!--slider-control-->
+                <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-button-next slider-arrow">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Slider: popularActivities-->
+    <section id="popularActivities">
+        <div class="slider-container">
+            <h1 class="fs-lg-1 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">
+            全台熱門活動
+            </h1>
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/act1.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="date fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">8/7 ~ 8/11</h2>
+                                <h2 class="place fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">北部 台北市 陽明山</h2>
+                                <h3 class="activity fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">2024年台北市陽明山櫻花花季</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/act2.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="date fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">3/7 ~ 3/11</h2>
+                                <h2 class="place fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">南部 屏東縣 潮州市</h2>
+                                <h3 class="activity fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">2024年台灣祭演唱會</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/act3.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="date fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">3/27 ~ 4/1</h2>
+                                <h2 class="place fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">南部 台南市 安平區</h2>
+                                <h3 class="activity fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">2024年漁光島市集</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/act4.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="date fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">6/11 ~ 6/18</h2>
+                                <h2 class="place fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">中部 台中市 西區</h2>
+                                <h3 class="activity fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-0 letter-spacing-22">2024年搖滾台中演唱會</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide-end -->
+                </div>
+                <!--slider-control-->
+                <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-button-next slider-arrow">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--模板示範
+    <section id="popularAttractions">
+        <div class="slider-container">
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/image.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">$20</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">Special Pizza</h2>
+                                <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/image.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">$20</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">Special Pizza</h2>
+                                <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/image.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">$20</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">Special Pizza</h2>
+                                <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide">
+                        <div class="tranding-slide-img">
+                            <img src="images/image.png" alt="Tranding">
+                        </div>
+                        <div class="tranding-slide-content">
+                            <h1 class="food-price">$20</h1>
+                            <div class="tranding-slide-content-bottom">
+                                <h2 class="food-name">Special Pizza</h2>
+                                <h3 class="food-rating">
+                                    <span>4.5</span>
+                                    <div class="rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tranding-slider-control">
+                    <div class="swiper-button-prev slider-arrow">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-button-next slider-arrow">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+
+
+{% endblock %}
+
+{% block script %}
+    <script src="{{ url_for('static', filename='js/slider.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/checkAccountInput.js') }}" ></script>
+{% endblock %}

@@ -1,0 +1,264 @@
+{% extends "base.html" %}
+{% set type_colors = {
+    'restaurant': '#F44336',
+    'tourist_attraction': '#4CAF50',
+    'museum': '#3F51B5',
+    'park': '#8BC34A',
+    'bar': '#9C27B0',
+    'shopping_mall': '#FF9800',
+    'cafe': '#795548'
+} %}
+
+
+{% set transit_icons = {
+    'WALKING': 'bi-person-walking',
+    'TRANSIT': 'bi-bus-front',
+    'DRIVING': 'bi-car-front',
+    'BICYCLING': 'bi-bicycle'
+} %}
+{% block content %}
+<div class="position-relative vh-100">
+    <div id="map" class="w-100 h-100"></div>
+
+    <div class="position-absolute top-0 start-0 m-3" style="width: 400px; max-height: 90vh; z-index: 1000;">
+        <div class="card bg-white bg-opacity-90">
+            <div class="card-header p-3">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#journey">行程</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#recommended">推薦景點</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body tab-content" style="max-height: calc(90vh - 76px); overflow-y: auto;">
+                <!-- Journey tab -->
+                <div id="journey" class="tab-pane fade show active">
+                    {% set current_date = None %}
+                    {% for place in journey %}
+                        {% set place_date = place.place_start_datetime.strftime('%Y-%m-%d') %}
+
+                        {% if place_date != current_date %}
+                            {% set current_date = place_date %}
+                            {% set day_number = loop.index0 // 5 + 1 %}
+                            <h5 class="fw-bold mb-3">第 {{ day_number }} 天</h5>
+                        {% endif %}
+
+                        <div class="place-item mb-3 border-start border-4 rounded shadow-sm"
+                             data-place-id="{{ place.place_id }}"
+                             data-lat="{{ place.lat }}"
+                             data-lng="{{ place.lng }}"
+                             style="background-color: {{ type_colors[place.types[0]] }}20;
+                                    border-left-color: {{ type_colors[place.types[0]] }}">
+                            <!-- Place content remains the same -->
+                            <div class="p-3">
+                                <h6 class="fw-bold mb-2">{{ place.place_name }}</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="text-muted">
+                                        {{ place.place_start_datetime.strftime('%H:%M') }} -
+                                        {{ place.place_end_datetime.strftime('%H:%M') }}
+                                    </span>
+                                    <div>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <span>{{ place.rating }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% if not loop.last %}
+                            {% if place.place_end_datetime.date() == journey[loop.index0 + 1].place_start_datetime.date() and route.routes_data[loop.index0] %}
+                                <div class="transit-info mb-3 ps-4">
+                                    {% for step in route.routes_data[loop.index0].steps %}
+                                        <div class="d-flex align-items-center mb-1">
+                                            <i class="bi {{ transit_icons[step.travel_mode] }}"></i>
+                                            <span class="ms-2 small">{{ step.duration }}</span>
+                                            {% if step.travel_mode == 'TRANSIT' %}
+                                                <span class="ms-2 small text-muted">
+                                                    {{ step.departure_stop }} → {{ step.arrival_stop }}
+                                                </span>
+                                            {% endif %}
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <!-- Recommended places tab -->
+                <div id="recommended" class="tab-pane fade">
+                    {% for place in recommended_places %}
+                        <div class="recommended-place mb-3 border-start border-4 rounded shadow-sm"
+                             data-lat="{{ place.lat }}"
+                             data-lng="{{ place.lng }}"
+                             data-name="{{ place.place_name }}"
+                             data-rating="{{ place.rating }}">
+                            <div class="p-3">
+                                <h6 class="fw-bold mb-2">{{ place.place_name }}</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        <span>{{ place.rating }}</span>
+                                        <span class="text-muted">({{ place.user_rating_totals }})</span>
+                                    </div>
+                                    <div>
+                                        {% for _ in range(place.price_level) %}
+                                            <i class="bi bi-currency-dollar text-success"></i>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="https://maps.googleapis.com/maps/api/js?key={{ google_maps_api_key }}&libraries=geometry"></script>
+<script>
+let map;
+let markers = {};
+let currentRoute = null;
+let infoWindow;
+const bounds = new google.maps.LatLngBounds();
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: { lat: 25.0330, lng: 121.5654 },
+        mapTypeControl: false,
+        fullscreenControl: false
+    });
+
+    infoWindow = new google.maps.InfoWindow();
+
+    // Add journey markers and routes
+    const journeyData = {{ journey|tojson }};
+    const routeData = {{ route|tojson }};
+    let currentDay = null;
+    let dayRoutes = [];
+    let dayMarkers = [];
+
+    journeyData.forEach((place, index) => {
+        const position = {
+            lat: parseFloat(place.lat),
+            lng: parseFloat(place.lng)
+        };
+
+        // Create marker
+        const marker = new google.maps.Marker({
+            position,
+            map,
+            label: (index + 1).toString()
+        });
+
+        markers[place.place_id] = marker;
+        bounds.extend(position);
+
+        // Group routes by day
+        const placeDate = new Date(place.place_start_datetime).toDateString();
+        if (currentDay !== placeDate) {
+            if (dayRoutes.length > 0) {
+                drawDayRoute(dayRoutes, currentDay === new Date(journeyData[0].place_start_datetime).toDateString());
+            }
+            currentDay = placeDate;
+            dayRoutes = [];
+            dayMarkers = [];
+        }
+
+        dayMarkers.push(position);
+
+        if (index < journeyData.length - 1 &&
+            new Date(place.place_end_datetime).toDateString() === new Date(journeyData[index + 1].place_start_datetime).toDateString()) {
+            if (routeData.routes_data[index] && routeData.routes_data[index].overview_polyline) {
+                dayRoutes.push(routeData.routes_data[index].overview_polyline);
+            }
+        }
+    });
+
+    // Draw last day's routes
+    if (dayRoutes.length > 0) {
+        drawDayRoute(dayRoutes, currentDay === new Date(journeyData[0].place_start_datetime).toDateString());
+    }
+
+    // Handle recommended place clicks
+    document.querySelectorAll('.recommended-place').forEach(place => {
+        place.addEventListener('click', () => {
+            const lat = parseFloat(place.dataset.lat);
+            const lng = parseFloat(place.dataset.lng);
+            if (!isNaN(lat) && !isNaN(lng)) {
+                const position = { lat, lng };
+                map.panTo(position);
+                map.setZoom(16);
+
+                const content = `
+                    <div class="p-3">
+                        <h5>${place.dataset.name}</h5>
+                        <div>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            ${place.dataset.rating}
+                        </div>
+                    </div>
+                `;
+
+                infoWindow.setContent(content);
+                infoWindow.setPosition(position);
+                infoWindow.open(map);
+            }
+        });
+    });
+
+    map.fitBounds(bounds);
+}
+
+function drawDayRoute(encodedPaths, isFirstDay) {
+    const color = isFirstDay ? '#4285F4' : '#45B642';
+    const paths = encodedPaths.map(encoded => google.maps.geometry.encoding.decodePath(encoded));
+
+    paths.forEach(path => {
+        new google.maps.Polyline({
+            path,
+            geodesic: true,
+            strokeColor: color,
+            strokeOpacity: 1.0,
+            strokeWeight: 4,
+            map: map
+        });
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+
+<style>
+.place-item, .recommended-place {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+
+.place-item:hover, .recommended-place:hover {
+    transform: translateX(5px);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.transit-info {
+    border-left: 2px dashed #ccc;
+}
+
+.bi {
+    font-size: 1.1rem;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
+{% endblock %}

@@ -1,0 +1,36 @@
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+}
+
+.custom-toast {
+    min-width: 200px;
+}
+
+.toast-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.toast-error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+@media (max-width: 768px) {
+    .toast-container {
+        right: 10px;
+        left: 10px;
+    }
+}
+
+.uuid-text {
+    font-family: monospace;
+    word-break: break-all;
+    background-color: #f8f9fa;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}

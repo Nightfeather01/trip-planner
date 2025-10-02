@@ -1,0 +1,21 @@
+/* 下拉式選單動畫 */
+.dropdown-menu {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out !important;
+}
+
+/* 當下拉式選單顯示時，使用這個樣式來控制淡入 */
+.show > .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+/* 下拉式選單內容文字顏色 */
+.dropdown-menu .dropdown-item {
+    color: inherit; /* 繼承父元素文字顏色 */
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+    color: #ffffff; /* 恢復默認或所需的文字顏色 */
+    background-color: $warning; /* 背景變為黃色 */
+}

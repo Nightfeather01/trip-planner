@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/all.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <!--完整navbar-->
+    <!--border-bottom:底線 border-5:粗度 border-warning:顏色-->
+    <header class="border-bottom border-5 border-warning">
+        <!--navbar-light:顏色 py-2:調整navbar大小-->
+        <nav class="navbar navbar-expand-xxl navbar-light py-2">
+            <div class="container">
+
+                <!--摺疊按鈕-->
+                <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--導航內容-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <!--行程與偏好相關-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle px-md-4 fw-bold fs-5" href="#" id="navbarDropdownSettings" role="button" data-bs-toggle="dropdown" aria-expanded="false">行程與偏好</a>
+                            <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="navbarDropdownSettings">
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">匯入</a></li>
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">分享</a></li>
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">管理</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link px-md-4 fw-bold fs-5" href="#">個人資料管理</a>
+                        </li>
+
+                        <!--幫助下拉選單-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle px-md-4 fw-bold fs-5" href="#" id="navbarDropdownHelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                幫助
+                            </a>
+                            <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="navbarDropdownHelp">
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">使用說明</a></li>
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">最新消息</a></li>
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">常見問題</a></li>
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">問題回報</a></li>
+                                <li><a class="dropdown-item px-md-4 fw-bold fs-5" href="#">聯絡我們</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="justify-content-end d-flex align-items-center">
+                        {% if g.user %}
+                            <span class="text-dark px-md-4 fw-bold fs-5">{{ g.user.real_name }} 您好</span>
+                            <form action="{{ url_for('user.logout') }}" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-outline-secondary btn-outline-secondary-hover rounded-pill border-2 fs-5">登出</button>
+                            </form>
+                        {% else %}
+                            <button type="button" class="btn btn-warning btn-warning-hover me-3 rounded-pill fs-5" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                登入
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary btn-outline-secondary-hover rounded-pill border-2 fs-5" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                註冊
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- 登入 Modal -->
+<div id="loginModal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 border-top border-4 border-warning">
+        <h5 class="modal-title">登入</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body border-top border-1">
+        <form id="loginForm" action="{{ url_for('user.login') }}" method="post">
+          <div class="mb-3">
+            <label for="loginAccount" class="form-label">帳號</label>
+            <input type="text" class="form-control" id="loginAccount" name="loginAccount" required>
+            <div class="invalid-feedback">帳號格式錯誤：最多16個字元</div>
+          </div>
+          <div class="mb-3">
+            <label for="loginPassword" class="form-label">密碼</label>
+            <input type="password" class="form-control" id="loginPassword" name="loginPassword" required>
+            <div class="invalid-feedback">密碼格式錯誤：最多16個字元</div>
+          </div>
+          <a href="#" class="text-muted d-block fs-sm mt-2">忘記密碼？</a>
+          <button type = "submit" class ="btn btn-warning btn-warning-hover w-100 rounded-pill mb-3 mt-3">登入</button>
+        </form>
+        <div class="position-relative my-4">
+          <div class="progress" style="height: 1px">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="position-absolute top-0 start-50 translate-middle bg-white text-center text-muted px-2 fs-sm">
+            還沒有帳號？ <a href="#" class="link-danger">註冊一個帳號</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 註冊 Modal -->
+<div id="registerModal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 border-top border-4 border-warning">
+        <h5 class="modal-title">註冊</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body border-top border-1">
+        <form id="registerForm" action="{{ url_for('user.register') }}" method="post">
+          <div class="mb-3">
+            <label for="registerNickname" class="form-label">真實姓名</label>
+            <input type="text" class="form-control" id="registerNickname" name="registerNickname" required>
+            <div class="invalid-feedback">真實姓名格式錯誤：最多16個字元</div>
+          </div>
+          <div class="mb-3">
+            <label for="registerAccount" class="form-label">帳號</label>
+            <input type="text" class="form-control" id="registerAccount" name="registerAccount" required>
+            <div class="invalid-feedback">帳號格式錯誤：最多16個字元</div>
+          </div>
+          <div class="mb-3">
+            <label for="registerPassword" class="form-label">密碼</label>
+            <input type="password" class="form-control" id="registerPassword" name="registerPassword" required>
+            <div class="invalid-feedback">密碼格式錯誤：最多16個字元</div>
+          </div>
+          <div class="mb-3">
+            <label for="registerConfirmPassword" class="form-label">再次輸入密碼</label>
+            <input type="password" class="form-control" id="registerConfirmPassword" name="registerConfirmPassword" required>
+            <div class="invalid-feedback">密碼不匹配</div>
+          </div>
+            <button type = "submit" class ="btn btn-warning btn-warning-hover w-100 rounded-pill mb-3 mt-3">註冊</button>
+        </form>
+        <div class="position-relative my-4">
+          <div class="progress" style="height: 1px">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="position-absolute top-0 start-50 translate-middle bg-white text-center text-muted px-2 fs-sm">
+            如需完整啟用服務，請至<br/>
+            <a href="#" class="link-danger">個人資料管理</a>修改
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--訊息模組-->
+    <div class="toast-container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message_dict in messages %}
+                    <div class="toast custom-toast show toast-{{ category }}" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                        <div class="toast-header">
+                            <strong class="me-auto">{% if category == 'success' %}成功{% else %}錯誤{% endif %}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            {{ message_dict['message'] }}
+                            {% if category == 'success' and message_dict['uuid'] %}
+                                <div class="mt-2 uuid-text">
+                                    您的UUID為: <br>
+                                    {{ message_dict['uuid'] }}<br>
+                                    請妥善保存以備未來使用
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+    </div>
+    {% block content %}{% endblock %}
+
+    <!-- Footer -->
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!--
+
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-google"></i>
+                </a>
+
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                -->
+                <!-- Github -->
+                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p class="text-start">
+                2021 年 COVID-19 疫情的爆發，雖迫使無數實體活動按下暫停鍵，卻也悄然掀起了一波數位轉型的浪潮。隨著疫情逐步趨緩，我開始規劃旅行。然而，至今市場上仍缺乏能自動挑選景點並規劃完整旅程的智能化旅遊服務。<br><br>
+                有鑑於此，本研究旨在為國人提供一項高效便捷的旅遊服務，不僅期望提升國內旅遊的意願，也致力於推動環境永續發展。我們透過規劃不同的大眾運輸路線，降低旅遊過程中的碳排放，同時鼓勵國人更頻繁地使用公共運輸工具。<br><br>
+                本研究提出的解決方案是一項基於網頁的旅遊服務，避免了傳統應用程式下載與安裝的繁瑣過程，進一步提升使用便利性。針對旅遊規劃中的多重考量，我們將其建模為多目標最佳化問題（Multi-objective Optimization）及旅行商問題（Travelling Salesman Problem，簡稱 TSP），並採用 NSGA-II（Non-dominated Sorting Genetic Algorithm II）演算法尋求最佳行程方案。<br><br>
+                技術實現上，我們運用 Python 的 Flask 框架搭配 MariaDB 資料庫進行使用者資料的儲存管理，並結合 Jinja2 模板引擎進行 UI/UX 的開發，實現前後端分離架構。此設計不僅加速開發流程，也大幅提升後續維護的便捷性。
+            </p>
+        </section>
+    </footer>
+
+    <!--載入所需JS資源-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/account_validator.js') }}"></script>
+    {% block script %}
+    {% endblock %}
+
+</body>
+</html>

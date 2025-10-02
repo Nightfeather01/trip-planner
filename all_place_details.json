@@ -1,0 +1,5963 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "114台灣台北市內湖區民善街127號2 樓",
+    "formatted_phone_number": "02 2792 1156",
+    "geometry": {
+      "location": {
+        "lat": 25.0614599,
+        "lng": 121.5755238
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0627768802915,
+          "lng": 121.5767267802915
+        },
+        "southwest": {
+          "lat": 25.0600789197085,
+          "lng": 121.5740288197085
+        }
+      }
+    },
+    "name": "媽妳講親子餐廳（內湖旗艦店）",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1330"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1330"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1330"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1330"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1330"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1330"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1730"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1330"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1730"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00",
+        "星期二: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00",
+        "星期三: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00",
+        "星期四: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00",
+        "星期五: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00",
+        "星期六: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00",
+        "星期日: 11:00 – 13:30, 14:00 – 17:00, 17:30 – 20:00"
+      ]
+    },
+    "place_id": "ChIJoZlomYarQjQRQ6dO-drU7eg",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "restaurant",
+      "amusement_park",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 3151,
+    "wheelchair_accessible_entrance": true
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "236台灣新北市土城區中山路21號",
+    "formatted_phone_number": "02 2268 9600",
+    "geometry": {
+      "location": {
+        "lat": 24.9629487,
+        "lng": 121.4180137
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9639993302915,
+          "lng": 121.4194352802915
+        },
+        "southwest": {
+          "lat": 24.9613013697085,
+          "lng": 121.4167373197085
+        }
+      }
+    },
+    "name": "聖瑪莉丹麥麵包莊園&親子樂園",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 10:00 – 18:00",
+        "星期二: 10:00 – 18:00",
+        "星期三: 10:00 – 18:00",
+        "星期四: 10:00 – 18:00",
+        "星期五: 10:00 – 18:00",
+        "星期六: 09:30 – 19:00",
+        "星期日: 09:30 – 19:00"
+      ]
+    },
+    "place_id": "ChIJxTDtRAEdaDQR_19jk7DTC-k",
+    "price_level": 2,
+    "rating": 4.7,
+    "types": [
+      "bakery",
+      "amusement_park",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1954,
+    "wheelchair_accessible_entrance": true
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "235047台灣新北市中和區復興路18號",
+    "formatted_phone_number": "02 2256 5932",
+    "geometry": {
+      "location": {
+        "lat": 24.9899992,
+        "lng": 121.5054884
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9912992802915,
+          "lng": 121.5068232802915
+        },
+        "southwest": {
+          "lat": 24.9886013197085,
+          "lng": 121.5041253197085
+        }
+      }
+    },
+    "name": "貓客廳 Cat Living room Cafe",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 20:00",
+        "星期二: 休息",
+        "星期三: 12:00 – 20:00",
+        "星期四: 12:00 – 20:00",
+        "星期五: 12:00 – 20:00",
+        "星期六: 12:00 – 20:00",
+        "星期日: 12:00 – 20:00"
+      ]
+    },
+    "place_id": "ChIJwUQ7tPKpQjQRcIHxCbIsFmw",
+    "price_level": 2,
+    "rating": 4.9,
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 608,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "111台灣台北市士林區福華路129號1樓",
+    "formatted_phone_number": "02 2835 3335",
+    "geometry": {
+      "location": {
+        "lat": 25.102394,
+        "lng": 121.5222345
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.1037525802915,
+          "lng": 121.5236508802915
+        },
+        "southwest": {
+          "lat": 25.1010546197085,
+          "lng": 121.5209529197085
+        }
+      }
+    },
+    "name": "小貓花園 CAFE' & CATS 1998（貓咪陪伴您喝下午茶）",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 22:00",
+        "星期二: 休息",
+        "星期三: 12:00 – 22:00",
+        "星期四: 12:00 – 22:00",
+        "星期五: 12:00 – 22:00",
+        "星期六: 12:00 – 22:00",
+        "星期日: 12:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJ2eTwVpauQjQRa_Hgky-FXE0",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "store",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1039,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "號 3 樓, No. 53武昌街二段萬華區台北市台灣 108",
+    "formatted_phone_number": "02 2388 3722",
+    "geometry": {
+      "location": {
+        "lat": 25.0447196,
+        "lng": 121.5072979
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0460303802915,
+          "lng": 121.5086367802915
+        },
+        "southwest": {
+          "lat": 25.0433324197085,
+          "lng": 121.5059388197085
+        }
+      }
+    },
+    "name": "FUFUCatCafe",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 21:00",
+        "星期二: 12:00 – 21:00",
+        "星期三: 12:00 – 21:00",
+        "星期四: 12:00 – 21:00",
+        "星期五: 12:00 – 21:00",
+        "星期六: 12:00 – 21:00",
+        "星期日: 12:00 – 21:00"
+      ]
+    },
+    "place_id": "ChIJp4XAHX6rQjQR9sjrYtvV564",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 993,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "234台灣新北市永和區永平路157巷6弄2號1樓",
+    "formatted_phone_number": "02 8258 5756",
+    "geometry": {
+      "location": {
+        "lat": 25.0083001,
+        "lng": 121.5106054
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0096278802915,
+          "lng": 121.5119576802915
+        },
+        "southwest": {
+          "lat": 25.00692991970849,
+          "lng": 121.5092597197085
+        }
+      }
+    },
+    "name": "貓隱村",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2030"
+          },
+          "open": {
+            "day": 0,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2030"
+          },
+          "open": {
+            "day": 1,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2030"
+          },
+          "open": {
+            "day": 3,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2030"
+          },
+          "open": {
+            "day": 4,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2030"
+          },
+          "open": {
+            "day": 5,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2030"
+          },
+          "open": {
+            "day": 6,
+            "time": "1330"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 13:30 – 20:30",
+        "星期二: 休息",
+        "星期三: 13:30 – 20:30",
+        "星期四: 13:30 – 20:30",
+        "星期五: 13:30 – 20:30",
+        "星期六: 13:30 – 20:30",
+        "星期日: 13:30 – 20:30"
+      ]
+    },
+    "place_id": "ChIJUxfydRaoQjQRHmdaZNG-ovY",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 390,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "105台灣台北市松山區三民路3巷21號",
+    "formatted_phone_number": "02 2528 1808",
+    "geometry": {
+      "location": {
+        "lat": 25.0518292,
+        "lng": 121.5631849
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0532783302915,
+          "lng": 121.5645372802915
+        },
+        "southwest": {
+          "lat": 25.0505803697085,
+          "lng": 121.5618393197085
+        }
+      }
+    },
+    "name": "和貓咪有約貓咪主題咖啡館",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:30 – 20:00",
+        "星期二: 11:30 – 20:00",
+        "星期三: 11:30 – 20:00",
+        "星期四: 11:30 – 20:00",
+        "星期五: 11:30 – 20:00",
+        "星期六: 11:30 – 20:00",
+        "星期日: 11:30 – 20:00"
+      ]
+    },
+    "place_id": "ChIJvVcFZ5SrQjQRxi0U9oW-d3Q",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1296,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "235台灣新北市中和區安平路130號",
+    "formatted_phone_number": "02 2943 7912",
+    "geometry": {
+      "location": {
+        "lat": 24.99782,
+        "lng": 121.512087
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9991937302915,
+          "lng": 121.5134009302915
+        },
+        "southwest": {
+          "lat": 24.99649576970849,
+          "lng": 121.5107029697085
+        }
+      }
+    },
+    "name": "貓咪日和咖啡屋",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2030"
+          },
+          "open": {
+            "day": 0,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2030"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2030"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2030"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2030"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2030"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2030"
+          },
+          "open": {
+            "day": 6,
+            "time": "1130"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:30 – 20:30",
+        "星期二: 11:30 – 20:30",
+        "星期三: 11:30 – 20:30",
+        "星期四: 11:30 – 20:30",
+        "星期五: 11:30 – 20:30",
+        "星期六: 11:30 – 20:30",
+        "星期日: 11:30 – 20:30"
+      ]
+    },
+    "place_id": "ChIJeYq7vN-pQjQRSzmrr_eR9RA",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 121,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "106台灣台北市大安區光復南路290巷58號",
+    "formatted_phone_number": "02 2721 5661",
+    "geometry": {
+      "location": {
+        "lat": 25.0394444,
+        "lng": 121.5555556
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0407668802915,
+          "lng": 121.5569040802915
+        },
+        "southwest": {
+          "lat": 25.0380689197085,
+          "lng": 121.5542061197085
+        }
+      }
+    },
+    "name": "Toast Chat",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 22:00",
+        "星期二: 12:00 – 22:00",
+        "星期三: 12:00 – 22:00",
+        "星期四: 12:00 – 22:00",
+        "星期五: 12:00 – 22:00",
+        "星期六: 12:00 – 22:00",
+        "星期日: 12:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJASafGMarQjQRtDMLDBSxPL4",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 3595,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "103台灣台北市大同區長安西路64號",
+    "formatted_phone_number": "02 2550 0561",
+    "geometry": {
+      "location": {
+        "lat": 25.0501829,
+        "lng": 121.5196979
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0515798302915,
+          "lng": 121.5210607802915
+        },
+        "southwest": {
+          "lat": 25.0488818697085,
+          "lng": 121.5183628197085
+        }
+      }
+    },
+    "name": "貓妝自家烘焙咖啡館",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2130"
+          },
+          "open": {
+            "day": 1,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2130"
+          },
+          "open": {
+            "day": 2,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2130"
+          },
+          "open": {
+            "day": 3,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2130"
+          },
+          "open": {
+            "day": 4,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2130"
+          },
+          "open": {
+            "day": 5,
+            "time": "1130"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:30 – 21:30",
+        "星期二: 11:30 – 21:30",
+        "星期三: 11:30 – 21:30",
+        "星期四: 11:30 – 21:30",
+        "星期五: 11:30 – 21:30",
+        "星期六: 09:00 – 22:00",
+        "星期日: 10:00 – 20:00"
+      ]
+    },
+    "place_id": "ChIJrxnYKmypQjQRTUyr-Z4K_YY",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1009,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10089台灣台北市中正區羅斯福路三段244巷9弄2-1號",
+    "formatted_phone_number": "02 2368 9713",
+    "geometry": {
+      "location": {
+        "lat": 25.0169359,
+        "lng": 121.530442
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0182949302915,
+          "lng": 121.5318029302915
+        },
+        "southwest": {
+          "lat": 25.0155969697085,
+          "lng": 121.5291049697085
+        }
+      }
+    },
+    "name": "別處咖啡 Away cafe",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 13:00 – 21:00",
+        "星期二: 13:00 – 21:00",
+        "星期三: 13:00 – 21:00",
+        "星期四: 13:00 – 21:00",
+        "星期五: 13:00 – 21:00",
+        "星期六: 11:00 – 22:00",
+        "星期日: 11:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJr52_JZ2pQjQRQ_UeWocNMTE",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 402
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "220台灣新北市板橋區光正街3號",
+    "formatted_phone_number": "02 2968 0418",
+    "geometry": {
+      "location": {
+        "lat": 25.0168913,
+        "lng": 121.463158
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0182679802915,
+          "lng": 121.4645299302915
+        },
+        "southwest": {
+          "lat": 25.01557001970849,
+          "lng": 121.4618319697085
+        }
+      }
+    },
+    "name": "貳巷貓弄Catfeine板橋店 咖啡/甜點/早午餐/貓咪餐廳(未滿12歲以下兒童只接受電話/臉書粉絲團預約)",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 11:00 – 20:00",
+        "星期二: 11:00 – 20:00",
+        "星期三: 11:00 – 20:00",
+        "星期四: 11:00 – 20:00",
+        "星期五: 11:00 – 20:00",
+        "星期六: 11:00 – 20:00",
+        "星期日: 11:00 – 20:00"
+      ]
+    },
+    "place_id": "ChIJZROOH4upQjQRIMKvQ7yjDyk",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "restaurant",
+      "cafe",
+      "point_of_interest",
+      "store",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 428,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區指南路三段38巷33-7號對面",
+    "formatted_phone_number": "0953 304 776",
+    "geometry": {
+      "location": {
+        "lat": 24.9678688,
+        "lng": 121.5917165
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9692288302915,
+          "lng": 121.5930315302915
+        },
+        "southwest": {
+          "lat": 24.9665308697085,
+          "lng": 121.5903335697085
+        }
+      }
+    },
+    "name": "貓空閒 cafe ［貓空第一間咖啡］",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "0000"
+          },
+          "open": {
+            "day": 1,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "0000"
+          },
+          "open": {
+            "day": 2,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "0000"
+          },
+          "open": {
+            "day": 3,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0000"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0300"
+          },
+          "open": {
+            "day": 5,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 14:00 – 00:00",
+        "星期二: 14:00 – 00:00",
+        "星期三: 14:00 – 00:00",
+        "星期四: 14:00 – 00:00",
+        "星期五: 14:00 – 03:00",
+        "星期六: 10:00 – 03:00",
+        "星期日: 10:00 – 00:00"
+      ]
+    },
+    "place_id": "ChIJ-RzHyC8AaDQR28wk04YCJas",
+    "price_level": 2,
+    "rating": 4.1,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1649,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "106台灣台北市大安區泰順街2巷42號",
+    "formatted_phone_number": "02 2362 9734",
+    "geometry": {
+      "location": {
+        "lat": 25.025603,
+        "lng": 121.529569
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0269842802915,
+          "lng": 121.5309129302915
+        },
+        "southwest": {
+          "lat": 25.02428631970849,
+          "lng": 121.5282149697085
+        }
+      }
+    },
+    "name": "極簡咖啡館",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 12:00 – 21:00",
+        "星期三: 12:00 – 21:00",
+        "星期四: 12:00 – 21:00",
+        "星期五: 12:00 – 21:00",
+        "星期六: 12:00 – 21:00",
+        "星期日: 12:00 – 21:00"
+      ]
+    },
+    "place_id": "ChIJT7RMuYWpQjQReKLqtP2lOuw",
+    "price_level": 2,
+    "rating": 4.2,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1112,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "10049台灣台北市中正區林森北路9巷13號",
+    "formatted_phone_number": "02 2356 0766",
+    "geometry": {
+      "location": {
+        "lat": 25.0457265,
+        "lng": 121.5245927
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0470168302915,
+          "lng": 121.5259221302915
+        },
+        "southwest": {
+          "lat": 25.0443188697085,
+          "lng": 121.5232241697085
+        }
+      }
+    },
+    "name": "浪浪別哭（不能攜帶寵物）",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 21:00",
+        "星期二: 12:00 – 21:00",
+        "星期三: 12:00 – 21:00",
+        "星期四: 12:00 – 21:00",
+        "星期五: 12:00 – 21:00",
+        "星期六: 12:00 – 21:00",
+        "星期日: 12:00 – 21:00"
+      ]
+    },
+    "place_id": "ChIJYwcCC26pQjQRa1_jn0XhBi0",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "store",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 4433,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "116台灣台北市文山區指南路三段40巷8-5號",
+    "geometry": {
+      "location": {
+        "lat": 24.9709294,
+        "lng": 121.5934235
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 24.9721225802915,
+          "lng": 121.5947144302915
+        },
+        "southwest": {
+          "lat": 24.9694246197085,
+          "lng": 121.5920164697085
+        }
+      }
+    },
+    "name": "生活在他方-夜貓店",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 休息",
+        "星期三: 休息",
+        "星期四: 12:00 – 02:00",
+        "星期五: 12:00 – 02:00",
+        "星期六: 12:00 – 02:00",
+        "星期日: 12:00 – 02:00"
+      ]
+    },
+    "place_id": "ChIJQ4q2sM4BaDQRxuZxLS6p3tc",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "book_store",
+      "point_of_interest",
+      "store",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1673,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "106台灣台北市大安區潮州街154號",
+    "formatted_phone_number": "02 3365 2865",
+    "geometry": {
+      "location": {
+        "lat": 25.0283754,
+        "lng": 121.528986
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0297894302915,
+          "lng": 121.5303467302915
+        },
+        "southwest": {
+          "lat": 25.02709146970849,
+          "lng": 121.5276487697085
+        }
+      }
+    },
+    "name": "貓圖咖啡 CAT. jpg cafe",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 08:30 – 17:00",
+        "星期二: 08:30 – 17:00",
+        "星期三: 08:30 – 17:00",
+        "星期四: 08:30 – 17:00",
+        "星期五: 08:30 – 17:00",
+        "星期六: 08:00 – 17:00",
+        "星期日: 08:00 – 17:00"
+      ]
+    },
+    "place_id": "ChIJWS67y4WpQjQRdR12Los_F8o",
+    "price_level": 1,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 931,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "105台灣台北市松山區敦化北路222巷17-2號",
+    "formatted_phone_number": "0989 964 092",
+    "geometry": {
+      "location": {
+        "lat": 25.0594627,
+        "lng": 121.5479672
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 25.0607945802915,
+          "lng": 121.5492998302915
+        },
+        "southwest": {
+          "lat": 25.05809661970849,
+          "lng": 121.5466018697085
+        }
+      }
+    },
+    "name": "朵朵嚐嚐貓咪中途咖啡廳（無接待12歲以下孩童）",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 12:00 – 21:00",
+        "星期三: 12:00 – 21:00",
+        "星期四: 12:00 – 21:00",
+        "星期五: 12:00 – 21:00",
+        "星期六: 12:00 – 21:00",
+        "星期日: 12:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJ7_Tz4xOrQjQRAUUzvKWPZQ4",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 663,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區中山路43號",
+    "formatted_phone_number": "05 278 1236",
+    "geometry": {
+      "location": {
+        "lat": 23.4821101,
+        "lng": 120.4601198
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4835602802915,
+          "lng": 120.4614560802915
+        },
+        "southwest": {
+          "lat": 23.4808623197085,
+          "lng": 120.4587581197085
+        }
+      }
+    },
+    "name": "喵咪文創咖啡館（無接待0~6歲小孩）最後收客時間20：00",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 21:00",
+        "星期二: 休息",
+        "星期三: 休息",
+        "星期四: 12:00 – 21:00",
+        "星期五: 12:00 – 21:00",
+        "星期六: 12:00 – 21:00",
+        "星期日: 12:00 – 21:00"
+      ]
+    },
+    "place_id": "ChIJGT7_mHuVbjQRM6bZonFysoY",
+    "price_level": 2,
+    "rating": 4.9,
+    "types": [
+      "cafe",
+      "clothing_store",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 832,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區公明路167號",
+    "formatted_phone_number": "05 228 7787",
+    "geometry": {
+      "location": {
+        "lat": 23.4799528,
+        "lng": 120.4548746
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4813714302915,
+          "lng": 120.4562139302915
+        },
+        "southwest": {
+          "lat": 23.4786734697085,
+          "lng": 120.4535159697085
+        }
+      }
+    },
+    "name": "提娜多咖啡（早午餐/飯/麵）",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "2000"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2000"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2000"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2000"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2000"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 08:00 – 20:00",
+        "星期三: 08:00 – 20:00",
+        "星期四: 08:00 – 20:00",
+        "星期五: 08:00 – 20:00",
+        "星期六: 08:00 – 20:00",
+        "星期日: 休息"
+      ]
+    },
+    "place_id": "ChIJmYCBOzSUbjQRPK1TH_Kvl7E",
+    "price_level": 1,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 286
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區中山路233號",
+    "formatted_phone_number": "05 225 5622",
+    "geometry": {
+      "location": {
+        "lat": 23.4807566,
+        "lng": 120.4518163
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4821607302915,
+          "lng": 120.4531354802915
+        },
+        "southwest": {
+          "lat": 23.47946276970849,
+          "lng": 120.4504375197085
+        }
+      }
+    },
+    "name": "藏.咖啡 嘉義中山店",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2230"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2230"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2230"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2230"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2230"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2230"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2230"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 09:00 – 22:30",
+        "星期二: 09:00 – 22:30",
+        "星期三: 09:00 – 22:30",
+        "星期四: 09:00 – 22:30",
+        "星期五: 09:00 – 22:30",
+        "星期六: 09:00 – 22:30",
+        "星期日: 09:00 – 22:30"
+      ]
+    },
+    "place_id": "ChIJDfif6TOUbjQRbnU5apxOWR0",
+    "price_level": 1,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "store",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1140,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區忠義街50號",
+    "geometry": {
+      "location": {
+        "lat": 23.4768875,
+        "lng": 120.4476871
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4782343802915,
+          "lng": 120.4490167802915
+        },
+        "southwest": {
+          "lat": 23.4755364197085,
+          "lng": 120.4463188197085
+        }
+      }
+    },
+    "name": "IN COFFEE",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2300"
+          },
+          "open": {
+            "day": 1,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2300"
+          },
+          "open": {
+            "day": 4,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 15:00 – 23:00",
+        "星期二: 休息",
+        "星期三: 休息",
+        "星期四: 15:00 – 23:00",
+        "星期五: 15:00 – 01:00",
+        "星期六: 13:00 – 01:00",
+        "星期日: 13:00 – 01:00"
+      ]
+    },
+    "place_id": "ChIJk5BHbeWVbjQRvRM9kHUbuN8",
+    "price_level": 1,
+    "rating": 4.7,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 698,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區延平街288號",
+    "geometry": {
+      "location": {
+        "lat": 23.4767054,
+        "lng": 120.448291
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4780136302915,
+          "lng": 120.4496442302915
+        },
+        "southwest": {
+          "lat": 23.4753156697085,
+          "lng": 120.4469462697085
+        }
+      }
+    },
+    "name": "嘉義-秘氏咖啡(休假日與菜單請參考IG)",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 13:00 – 21:00",
+        "星期二: 休息",
+        "星期三: 休息",
+        "星期四: 13:00 – 21:00",
+        "星期五: 13:00 – 21:00",
+        "星期六: 13:00 – 21:00",
+        "星期日: 13:00 – 21:00"
+      ]
+    },
+    "place_id": "ChIJ4ejIPTCUbjQRgE5YCc3IjI4",
+    "price_level": 2,
+    "rating": 4.7,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 346,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區維新路73號",
+    "formatted_phone_number": "05 277 0893",
+    "geometry": {
+      "location": {
+        "lat": 23.48162019999999,
+        "lng": 120.4586921
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4829744302915,
+          "lng": 120.4600905302915
+        },
+        "southwest": {
+          "lat": 23.4802764697085,
+          "lng": 120.4573925697085
+        }
+      }
+    },
+    "name": "Daisy的雜貨店",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 13:00 – 19:00",
+        "星期二: 13:00 – 19:00",
+        "星期三: 13:00 – 19:00",
+        "星期四: 休息",
+        "星期五: 13:00 – 19:00",
+        "星期六: 13:00 – 19:00",
+        "星期日: 13:00 – 19:00"
+      ]
+    },
+    "place_id": "ChIJ9-a0iMqVbjQRqrlXj3zFgfQ",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 469,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區啟明路277號",
+    "formatted_phone_number": "05 276 5750",
+    "geometry": {
+      "location": {
+        "lat": 23.4839121,
+        "lng": 120.4630427
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4852680802915,
+          "lng": 120.4644505802915
+        },
+        "southwest": {
+          "lat": 23.4825701197085,
+          "lng": 120.4617526197085
+        }
+      }
+    },
+    "name": "簡單咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 07:00 – 18:00",
+        "星期二: 07:00 – 18:00",
+        "星期三: 07:00 – 18:00",
+        "星期四: 07:00 – 18:00",
+        "星期五: 07:00 – 18:00",
+        "星期六: 08:00 – 17:30",
+        "星期日: 08:00 – 17:30"
+      ]
+    },
+    "place_id": "ChIJy55TlbSVbjQR5S0p7gd76k0",
+    "price_level": 1,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 98
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區長榮街150號",
+    "geometry": {
+      "location": {
+        "lat": 23.4838088,
+        "lng": 120.4520139
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4851137802915,
+          "lng": 120.4533728302915
+        },
+        "southwest": {
+          "lat": 23.4824158197085,
+          "lng": 120.4506748697085
+        }
+      }
+    },
+    "name": "TOY4 café｜studiö",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1400"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 休息",
+        "星期三: 休息",
+        "星期四: 休息",
+        "星期五: 休息",
+        "星期六: 14:00 – 19:00",
+        "星期日: 14:00 – 19:00"
+      ]
+    },
+    "place_id": "ChIJ87eiXTOUbjQRXU-1hV3Mn5M",
+    "price_level": 1,
+    "rating": 4.7,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 29,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區興業東路387號",
+    "formatted_phone_number": "05 216 2626",
+    "geometry": {
+      "location": {
+        "lat": 23.4698272,
+        "lng": 120.4585252
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4711267302915,
+          "lng": 120.4598800802915
+        },
+        "southwest": {
+          "lat": 23.4684287697085,
+          "lng": 120.4571821197085
+        }
+      }
+    },
+    "name": "玖CAFÉ",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 13:00 – 22:00",
+        "星期二: 13:00 – 22:00",
+        "星期三: 13:00 – 22:00",
+        "星期四: 休息",
+        "星期五: 休息",
+        "星期六: 13:00 – 22:00",
+        "星期日: 13:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJGwCNgziUbjQRaT_u_j-Z_5E",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 562
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區興中街200號",
+    "formatted_phone_number": "05 275 5866",
+    "geometry": {
+      "location": {
+        "lat": 23.4836716,
+        "lng": 120.4499184
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4850145802915,
+          "lng": 120.4512330802915
+        },
+        "southwest": {
+          "lat": 23.4823166197085,
+          "lng": 120.4485351197085
+        }
+      }
+    },
+    "name": "MIMICO COFFEE 秘密客咖啡館",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1930"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1930"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1930"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1930"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 19:30",
+        "星期二: 12:00 – 19:30",
+        "星期三: 12:00 – 19:30",
+        "星期四: 休息",
+        "星期五: 12:00 – 19:30",
+        "星期六: 10:00 – 19:30",
+        "星期日: 10:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJhdCLmCaUbjQRPgiPTqAa6SU",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 700,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區市宅街22巷5弄5號",
+    "formatted_phone_number": "05 222 2670",
+    "geometry": {
+      "location": {
+        "lat": 23.4740321,
+        "lng": 120.4599099
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4754161302915,
+          "lng": 120.4612544302915
+        },
+        "southwest": {
+          "lat": 23.47271816970849,
+          "lng": 120.4585564697085
+        }
+      }
+    },
+    "name": "AMON咖啡所",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 休息",
+        "星期三: 10:00 – 18:00",
+        "星期四: 10:00 – 18:00",
+        "星期五: 10:00 – 18:00",
+        "星期六: 10:00 – 18:00",
+        "星期日: 10:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJofjUHEiUbjQRUP0dDVwDTOw",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 286,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區共和路199巷1號",
+    "formatted_phone_number": "05 276 1601#2122",
+    "geometry": {
+      "location": {
+        "lat": 23.4859563,
+        "lng": 120.454355
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4873703802915,
+          "lng": 120.4557873802915
+        },
+        "southwest": {
+          "lat": 23.48467241970849,
+          "lng": 120.4530894197085
+        }
+      }
+    },
+    "name": "Morikoohii 森 咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 10:00 – 18:00",
+        "星期二: 10:00 – 18:00",
+        "星期三: 10:00 – 18:00",
+        "星期四: 10:00 – 18:00",
+        "星期五: 10:00 – 18:00",
+        "星期六: 10:00 – 18:00",
+        "星期日: 10:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJdVv-QcuVbjQRgRyFggf7pjM",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "store",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1153,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區忠義街138號",
+    "formatted_phone_number": "05 225 8191",
+    "geometry": {
+      "location": {
+        "lat": 23.4802811,
+        "lng": 120.4473881
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.48162588029151,
+          "lng": 120.4486810802915
+        },
+        "southwest": {
+          "lat": 23.4789279197085,
+          "lng": 120.4459831197085
+        }
+      }
+    },
+    "name": "蕨醒咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1600"
+          },
+          "open": {
+            "day": 0,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1600"
+          },
+          "open": {
+            "day": 1,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1600"
+          },
+          "open": {
+            "day": 2,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1600"
+          },
+          "open": {
+            "day": 3,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1600"
+          },
+          "open": {
+            "day": 4,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1600"
+          },
+          "open": {
+            "day": 5,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1600"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 08:30 – 16:00",
+        "星期二: 08:30 – 16:00",
+        "星期三: 08:30 – 16:00",
+        "星期四: 08:30 – 16:00",
+        "星期五: 08:30 – 16:00",
+        "星期六: 08:30 – 16:00",
+        "星期日: 08:30 – 16:00"
+      ]
+    },
+    "place_id": "ChIJPaJ5_TGUbjQRWTB6pKNi7NY",
+    "price_level": 1,
+    "rating": 4.7,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 235,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區中山路616號F棟2樓",
+    "formatted_phone_number": "0903 898 995",
+    "geometry": {
+      "location": {
+        "lat": 23.4759909,
+        "lng": 120.438864
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4772375802915,
+          "lng": 120.4404858302915
+        },
+        "southwest": {
+          "lat": 23.4745396197085,
+          "lng": 120.4377878697085
+        }
+      }
+    },
+    "name": "國王蝴蝶咖啡 Roicafe",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 休息",
+        "星期三: 10:00 – 18:00",
+        "星期四: 10:00 – 18:00",
+        "星期五: 10:00 – 18:00",
+        "星期六: 10:00 – 18:00",
+        "星期日: 10:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJEaMDozKVbjQRI2Crpui2t4Y",
+    "price_level": 2,
+    "rating": 4.7,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 461
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區國華街132號",
+    "formatted_phone_number": "05 225 5507",
+    "geometry": {
+      "location": {
+        "lat": 23.4778818,
+        "lng": 120.4487353
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4792279802915,
+          "lng": 120.4500545302915
+        },
+        "southwest": {
+          "lat": 23.4765300197085,
+          "lng": 120.4473565697085
+        }
+      }
+    },
+    "name": "霜空珈琲",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 18:00",
+        "星期二: 12:00 – 18:00",
+        "星期三: 休息",
+        "星期四: 休息",
+        "星期五: 12:00 – 18:00",
+        "星期六: 12:00 – 18:00",
+        "星期日: 12:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJkSo_GFqVbjQRLuleHyhEMk8",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1259,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區大雅路二段15號",
+    "formatted_phone_number": "05 271 8822",
+    "geometry": {
+      "location": {
+        "lat": 23.4798331,
+        "lng": 120.4819271
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4812596302915,
+          "lng": 120.4832682802915
+        },
+        "southwest": {
+          "lat": 23.4785616697085,
+          "lng": 120.4805703197085
+        }
+      }
+    },
+    "name": "迦南地/嘉義咖啡廳/嘉義下午茶/嘉義夜景餐廳/嘉義甜點/嘉義庭園咖啡/嘉義美食",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1300"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "1300"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 13:00 – 22:00",
+        "星期二: 13:00 – 22:00",
+        "星期三: 13:00 – 22:00",
+        "星期四: 休息",
+        "星期五: 13:00 – 22:00",
+        "星期六: 13:00 – 22:00",
+        "星期日: 13:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJQZPiu6qVbjQROWqAV2iukWs",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 279
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區興中街205號",
+    "formatted_phone_number": "05 275 0600",
+    "geometry": {
+      "location": {
+        "lat": 23.4841147,
+        "lng": 120.4496869
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4854706302915,
+          "lng": 120.4510655302915
+        },
+        "southwest": {
+          "lat": 23.4827726697085,
+          "lng": 120.4483675697085
+        }
+      }
+    },
+    "name": "往前咖啡製作所 / Forward Roasters",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 09:30 – 21:00",
+        "星期二: 休息",
+        "星期三: 09:30 – 19:00",
+        "星期四: 09:30 – 21:00",
+        "星期五: 09:30 – 21:00",
+        "星期六: 09:30 – 21:00",
+        "星期日: 09:30 – 21:00"
+      ]
+    },
+    "place_id": "ChIJU6G05jKUbjQRKliHNVe0Y-0",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 904
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區安樂街156號",
+    "formatted_phone_number": "05 271 1122",
+    "geometry": {
+      "location": {
+        "lat": 23.4826782,
+        "lng": 120.4563712
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4839568302915,
+          "lng": 120.4577300302915
+        },
+        "southwest": {
+          "lat": 23.4812588697085,
+          "lng": 120.4550320697085
+        }
+      }
+    },
+    "name": "慕 珈琲店",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2300"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2300"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2300"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 23:00",
+        "星期二: 12:00 – 23:00",
+        "星期三: 休息",
+        "星期四: 12:00 – 23:00",
+        "星期五: 12:00 – 23:00",
+        "星期六: 12:00 – 23:00",
+        "星期日: 12:00 – 23:00"
+      ]
+    },
+    "place_id": "ChIJ9WYiGTWUbjQR9BxLSmfCqBE",
+    "price_level": 2,
+    "rating": 4.8,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 306,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區公園街97號",
+    "formatted_phone_number": "05 275 2221",
+    "geometry": {
+      "location": {
+        "lat": 23.4801299,
+        "lng": 120.4668976
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4815173302915,
+          "lng": 120.4682429302915
+        },
+        "southwest": {
+          "lat": 23.4788193697085,
+          "lng": 120.4655449697085
+        }
+      }
+    },
+    "name": "荏苒咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 09:00 – 17:00",
+        "星期二: 09:00 – 17:00",
+        "星期三: 休息",
+        "星期四: 休息",
+        "星期五: 09:00 – 17:00",
+        "星期六: 09:00 – 17:00",
+        "星期日: 09:00 – 17:00"
+      ]
+    },
+    "place_id": "ChIJ5ZSuocqVbjQRhLb3tg-8mms",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 432,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區光彩街453號",
+    "formatted_phone_number": "0983 811 465",
+    "geometry": {
+      "location": {
+        "lat": 23.4777303,
+        "lng": 120.4470138
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4791819302915,
+          "lng": 120.4483512302915
+        },
+        "southwest": {
+          "lat": 23.47648396970849,
+          "lng": 120.4456532697085
+        }
+      }
+    },
+    "name": "小口品s",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1315"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1315"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1315"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1315"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1315"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 13:15 – 18:00",
+        "星期三: 13:15 – 18:00",
+        "星期四: 13:15 – 18:00",
+        "星期五: 13:15 – 18:00",
+        "星期六: 13:15 – 18:00",
+        "星期日: 休息"
+      ]
+    },
+    "place_id": "ChIJL_iG1S-UbjQRCcYCXqloXkU",
+    "price_level": 1,
+    "rating": 4.9,
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 410,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區公明路297號",
+    "formatted_phone_number": "05 216 0711",
+    "geometry": {
+      "location": {
+        "lat": 23.4797323,
+        "lng": 120.4513805
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4811173302915,
+          "lng": 120.4527317802915
+        },
+        "southwest": {
+          "lat": 23.4784193697085,
+          "lng": 120.4500338197085
+        }
+      }
+    },
+    "name": "巴倫司康 Baron Scones",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 19:00",
+        "星期二: 12:00 – 19:00",
+        "星期三: 12:00 – 19:00",
+        "星期四: 12:00 – 19:00",
+        "星期五: 12:00 – 19:00",
+        "星期六: 12:00 – 19:00",
+        "星期日: 12:00 – 19:00"
+      ]
+    },
+    "place_id": "ChIJA3VoPP6VbjQRKQTeTZNYr3Q",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 1118,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "60041台灣嘉义市东区中山路203號1樓",
+    "formatted_phone_number": "05 228 0260",
+    "geometry": {
+      "location": {
+        "lat": 23.4811292,
+        "lng": 120.4526571
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4825379302915,
+          "lng": 120.4539774302915
+        },
+        "southwest": {
+          "lat": 23.4798399697085,
+          "lng": 120.4512794697085
+        }
+      }
+    },
+    "name": "樂檸漢堡 THEFREEN BURGER（嘉義中山市府門市）",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2130"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2130"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2130"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2130"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2130"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2130"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2130"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 08:00 – 21:30",
+        "星期二: 08:00 – 21:30",
+        "星期三: 08:00 – 21:30",
+        "星期四: 08:00 – 21:30",
+        "星期五: 08:00 – 21:30",
+        "星期六: 08:00 – 21:30",
+        "星期日: 08:00 – 21:30"
+      ]
+    },
+    "place_id": "ChIJn4V6ZTWUbjQR7hZwYmDO-8Q",
+    "price_level": 2,
+    "rating": 4.3,
+    "types": [
+      "bakery",
+      "cafe",
+      "bar",
+      "restaurant",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 4178
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區民生北路194號",
+    "formatted_phone_number": "05 222 5896",
+    "geometry": {
+      "location": {
+        "lat": 23.4787031,
+        "lng": 120.4465082
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4800403302915,
+          "lng": 120.4477489802915
+        },
+        "southwest": {
+          "lat": 23.4773423697085,
+          "lng": 120.4450510197085
+        }
+      }
+    },
+    "name": "卓武咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1300"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1300"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1300"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1300"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1300"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1300"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1300"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1400"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 08:00 – 13:00, 14:00 – 17:00",
+        "星期二: 08:00 – 13:00, 14:00 – 17:00",
+        "星期三: 08:00 – 13:00, 14:00 – 17:00",
+        "星期四: 08:00 – 13:00, 14:00 – 17:00",
+        "星期五: 08:00 – 13:00, 14:00 – 17:00",
+        "星期六: 08:00 – 13:00, 14:00 – 17:00",
+        "星期日: 08:00 – 13:00, 14:00 – 17:00"
+      ]
+    },
+    "place_id": "ChIJIbDIDyKUbjQRykvCkESaYY4",
+    "price_level": 2,
+    "rating": 4.4,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 425,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區中興路398號",
+    "formatted_phone_number": "05 231 4313",
+    "geometry": {
+      "location": {
+        "lat": 23.47942699999999,
+        "lng": 120.4290534
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4807492802915,
+          "lng": 120.4304540802915
+        },
+        "southwest": {
+          "lat": 23.4780513197085,
+          "lng": 120.4277561197085
+        }
+      }
+    },
+    "name": "STARBUCKS 星巴克 嘉義中興門市",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2130"
+          },
+          "open": {
+            "day": 0,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2130"
+          },
+          "open": {
+            "day": 1,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2130"
+          },
+          "open": {
+            "day": 2,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2130"
+          },
+          "open": {
+            "day": 3,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2130"
+          },
+          "open": {
+            "day": 4,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2130"
+          },
+          "open": {
+            "day": 5,
+            "time": "0630"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2130"
+          },
+          "open": {
+            "day": 6,
+            "time": "0630"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 06:30 – 21:30",
+        "星期二: 06:30 – 21:30",
+        "星期三: 06:30 – 21:30",
+        "星期四: 06:30 – 21:30",
+        "星期五: 06:30 – 21:30",
+        "星期六: 06:30 – 21:30",
+        "星期日: 06:30 – 21:30"
+      ]
+    },
+    "place_id": "ChIJS4Y8s4SWbjQRIx9Klxraw5I",
+    "price_level": 2,
+    "rating": 4.1,
+    "types": [
+      "cafe",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1195,
+    "wheelchair_accessible_entrance": true
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區中山路111號1樓",
+    "formatted_phone_number": "05 271 0885",
+    "geometry": {
+      "location": {
+        "lat": 23.4819308,
+        "lng": 120.4575556
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4833083302915,
+          "lng": 120.4589004802915
+        },
+        "southwest": {
+          "lat": 23.4806103697085,
+          "lng": 120.4562025197085
+        }
+      }
+    },
+    "name": "85度C咖啡蛋糕飲料麵包-嘉義中山店",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 07:00 – 22:00",
+        "星期二: 07:00 – 22:00",
+        "星期三: 07:00 – 22:00",
+        "星期四: 07:00 – 22:00",
+        "星期五: 07:00 – 22:00",
+        "星期六: 07:00 – 22:00",
+        "星期日: 07:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJN0GLcjWUbjQRbVQfXduMj44",
+    "price_level": 1,
+    "rating": 3.8,
+    "types": [
+      "cafe",
+      "bakery",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 249
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區忠孝路600號",
+    "formatted_phone_number": "05 278 9265",
+    "geometry": {
+      "location": {
+        "lat": 23.4965197,
+        "lng": 120.4525821
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4978191302915,
+          "lng": 120.4537710302915
+        },
+        "southwest": {
+          "lat": 23.4951211697085,
+          "lng": 120.4510730697085
+        }
+      }
+    },
+    "name": "STARBUCKS 星巴克 耐斯門市",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0900"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 10:00 – 22:00",
+        "星期二: 10:00 – 22:00",
+        "星期三: 10:00 – 22:00",
+        "星期四: 10:00 – 22:00",
+        "星期五: 10:00 – 22:00",
+        "星期六: 09:00 – 22:00",
+        "星期日: 09:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJN-CO-cWVbjQRPlTLgCkZZww",
+    "price_level": 2,
+    "rating": 4.2,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 384,
+    "wheelchair_accessible_entrance": true
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區忠孝路539號",
+    "formatted_phone_number": "05 274 1465",
+    "geometry": {
+      "location": {
+        "lat": 23.4994169,
+        "lng": 120.4501669
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.5007759302915,
+          "lng": 120.4515366802915
+        },
+        "southwest": {
+          "lat": 23.4980779697085,
+          "lng": 120.4488387197085
+        }
+      }
+    },
+    "name": "STARBUCKS 星巴克 嘉基門市",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1830"
+          },
+          "open": {
+            "day": 1,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1830"
+          },
+          "open": {
+            "day": 2,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1830"
+          },
+          "open": {
+            "day": 3,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1830"
+          },
+          "open": {
+            "day": 4,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1830"
+          },
+          "open": {
+            "day": 5,
+            "time": "0700"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1400"
+          },
+          "open": {
+            "day": 6,
+            "time": "0700"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 07:00 – 18:30",
+        "星期二: 07:00 – 18:30",
+        "星期三: 07:00 – 18:30",
+        "星期四: 07:00 – 18:30",
+        "星期五: 07:00 – 18:30",
+        "星期六: 07:00 – 14:00",
+        "星期日: 休息"
+      ]
+    },
+    "place_id": "ChIJy-U8VcSVbjQRjtnxyojXlAg",
+    "price_level": 2,
+    "rating": 4,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 371,
+    "wheelchair_accessible_entrance": true
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區垂楊路537號1樓",
+    "formatted_phone_number": "05 283 2501",
+    "geometry": {
+      "location": {
+        "lat": 23.472695,
+        "lng": 120.44116
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4741923302915,
+          "lng": 120.4424929302915
+        },
+        "southwest": {
+          "lat": 23.4714943697085,
+          "lng": 120.4397949697085
+        }
+      }
+    },
+    "name": "STARBUCKS 星巴克 (垂楊門市）",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2130"
+          },
+          "open": {
+            "day": 0,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2130"
+          },
+          "open": {
+            "day": 1,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2130"
+          },
+          "open": {
+            "day": 2,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2130"
+          },
+          "open": {
+            "day": 3,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2130"
+          },
+          "open": {
+            "day": 4,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2130"
+          },
+          "open": {
+            "day": 5,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2130"
+          },
+          "open": {
+            "day": 6,
+            "time": "0730"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 07:30 – 21:30",
+        "星期二: 07:30 – 21:30",
+        "星期三: 07:30 – 21:30",
+        "星期四: 07:30 – 21:30",
+        "星期五: 07:30 – 21:30",
+        "星期六: 07:30 – 21:30",
+        "星期日: 07:30 – 21:30"
+      ]
+    },
+    "place_id": "ChIJ2wHYmCaUbjQRCgOUM99xxYQ",
+    "price_level": 2,
+    "rating": 4,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 369
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市西區八德路330號",
+    "formatted_phone_number": "05 231 1558",
+    "geometry": {
+      "location": {
+        "lat": 23.4912488,
+        "lng": 120.4302424
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4925932802915,
+          "lng": 120.4315313802915
+        },
+        "southwest": {
+          "lat": 23.48989531970849,
+          "lng": 120.4288334197085
+        }
+      }
+    },
+    "name": "胡永泰自家烘焙咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1730"
+          },
+          "open": {
+            "day": 0,
+            "time": "0830"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "0730"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1730"
+          },
+          "open": {
+            "day": 6,
+            "time": "0830"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 07:30 – 17:30",
+        "星期二: 07:30 – 17:30",
+        "星期三: 07:30 – 17:30",
+        "星期四: 07:30 – 17:30",
+        "星期五: 07:30 – 17:30",
+        "星期六: 08:30 – 17:30",
+        "星期日: 08:30 – 17:30"
+      ]
+    },
+    "place_id": "ChIJE3-uxiOUbjQRfZkcZqHkFR4",
+    "price_level": 1,
+    "rating": 4.3,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 396
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區大雅路二段497之1號",
+    "formatted_phone_number": "05 271 8123",
+    "geometry": {
+      "location": {
+        "lat": 23.47761749999999,
+        "lng": 120.4707927
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4790214802915,
+          "lng": 120.4721463802915
+        },
+        "southwest": {
+          "lat": 23.47632351970849,
+          "lng": 120.4694484197085
+        }
+      }
+    },
+    "name": "Fun 輕鬆咖啡美學",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 22:00",
+        "星期二: 12:00 – 22:00",
+        "星期三: 12:00 – 22:00",
+        "星期四: 12:00 – 22:00",
+        "星期五: 12:00 – 23:00",
+        "星期六: 12:00 – 23:00",
+        "星期日: 12:00 – 22:00"
+      ]
+    },
+    "place_id": "ChIJyUMxcFKUbjQR5HmLWdiK_zg",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 114
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區成仁街189號",
+    "formatted_phone_number": "05 223 2288",
+    "geometry": {
+      "location": {
+        "lat": 23.4805045,
+        "lng": 120.4519814
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4818567802915,
+          "lng": 120.4533680802915
+        },
+        "southwest": {
+          "lat": 23.4791588197085,
+          "lng": 120.4506701197085
+        }
+      }
+    },
+    "name": "木更 MUGENERATION",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1230"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:30 – 17:30",
+        "星期二: 12:30 – 17:30",
+        "星期三: 休息",
+        "星期四: 休息",
+        "星期五: 12:30 – 17:30",
+        "星期六: 10:00 – 18:00",
+        "星期日: 10:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJoVLXijaUbjQRoXGuYmsPr0Q",
+    "price_level": 2,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1171
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區成仁街226號1樓",
+    "formatted_phone_number": "05 223 2701",
+    "geometry": {
+      "location": {
+        "lat": 23.482483,
+        "lng": 120.4513239
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4838183802915,
+          "lng": 120.4526387802915
+        },
+        "southwest": {
+          "lat": 23.4811204197085,
+          "lng": 120.4499408197085
+        }
+      }
+    },
+    "name": "山茶花與鹿之森",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1930"
+          },
+          "open": {
+            "day": 1,
+            "time": "1530"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1930"
+          },
+          "open": {
+            "day": 2,
+            "time": "1530"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1930"
+          },
+          "open": {
+            "day": 3,
+            "time": "1530"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1930"
+          },
+          "open": {
+            "day": 4,
+            "time": "1530"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1930"
+          },
+          "open": {
+            "day": 5,
+            "time": "1530"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 15:30 – 19:30",
+        "星期二: 15:30 – 19:30",
+        "星期三: 15:30 – 19:30",
+        "星期四: 15:30 – 19:30",
+        "星期五: 15:30 – 19:30",
+        "星期六: 休息",
+        "星期日: 休息"
+      ]
+    },
+    "place_id": "ChIJqc00pzOUbjQRH-N6D4sSUGY",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 76,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區興中街10號",
+    "formatted_phone_number": "05 228 2025",
+    "geometry": {
+      "location": {
+        "lat": 23.475162,
+        "lng": 120.451827
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4765024302915,
+          "lng": 120.4531186802915
+        },
+        "southwest": {
+          "lat": 23.47380446970849,
+          "lng": 120.4504207197085
+        }
+      }
+    },
+    "name": "聖塔咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2100"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2100"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 12:00 – 21:00",
+        "星期二: 12:00 – 21:00",
+        "星期三: 休息",
+        "星期四: 12:00 – 21:00",
+        "星期五: 12:00 – 21:00",
+        "星期六: 12:00 – 21:00",
+        "星期日: 12:00 – 21:00"
+      ]
+    },
+    "place_id": "ChIJ-RrSvDCUbjQRBs0I8OaMNiY",
+    "price_level": 2,
+    "rating": 4.5,
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 269,
+    "wheelchair_accessible_entrance": true
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "600台灣嘉義市東區公明路59-1號",
+    "formatted_phone_number": "05 277 7363",
+    "geometry": {
+      "location": {
+        "lat": 23.48045299999999,
+        "lng": 120.459206
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4818736802915,
+          "lng": 120.4605487802915
+        },
+        "southwest": {
+          "lat": 23.47917571970849,
+          "lng": 120.4578508197085
+        }
+      }
+    },
+    "name": "花磚咖啡。淺嚐館",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 休息",
+        "星期二: 10:00 – 18:00",
+        "星期三: 10:00 – 18:00",
+        "星期四: 10:00 – 18:00",
+        "星期五: 10:00 – 18:00",
+        "星期六: 10:00 – 18:00",
+        "星期日: 10:00 – 18:00"
+      ]
+    },
+    "place_id": "ChIJkSndeEqUbjQRj6o-KJuqk3s",
+    "price_level": 1,
+    "rating": 4.6,
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 392,
+    "wheelchair_accessible_entrance": false
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "60049台灣嘉義市東區維新路52號",
+    "formatted_phone_number": "05 275 8906",
+    "geometry": {
+      "location": {
+        "lat": 23.4809928,
+        "lng": 120.4591884
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 23.4823304302915,
+          "lng": 120.4604379802915
+        },
+        "southwest": {
+          "lat": 23.4796324697085,
+          "lng": 120.4577400197085
+        }
+      }
+    },
+    "name": "嘉義巴登咖啡",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "2100"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2100"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2100"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2100"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        }
+      ],
+      "weekday_text": [
+        "星期一: 10:00 – 21:00",
+        "星期二: 10:00 – 21:00",
+        "星期三: 10:00 – 21:00",
+        "星期四: 10:00 – 21:00",
+        "星期五: 10:00 – 21:00",
+        "星期六: 休息",
+        "星期日: 休息"
+      ]
+    },
+    "place_id": "ChIJJaaUFbWVbjQRrQUj2mSB1vE",
+    "price_level": 2,
+    "rating": 3.9,
+    "types": [
+      "restaurant",
+      "cafe",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 550,
+    "wheelchair_accessible_entrance": false
+  }
+]

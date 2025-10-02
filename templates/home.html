@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+
+{% block title %}Trip Planner{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <h1 class="text-center mb-4">
+    嗨{% if g.user %}{{ g.user.real_name }}{% endif %}，讓我們來規劃您的下一個旅行
+    </h1>
+
+    <form id="tripPlannerForm" class="needs-validation" method="POST" action="{{ url_for('trip_plan.trip_planning') }}" novalidate>
+        <!-- 基本資訊區塊 -->
+        <div class="form-section mb-4">
+            <h5 class="section-title mb-3">旅行偏好設定<span class="required-mark">*</span></h5>
+            <div class="row">
+                <!-- 旅行名稱 -->
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <label for="tripName" class="form-label">旅行偏好名稱<span class="required-mark">*</span></label>
+                        <input type="text" class="form-control" id="tripName" name="tripName" placeholder="新增旅行偏好" required>
+                        <div class="invalid-feedback">請輸入旅行偏好名稱</div>
+                    </div>
+                </div>
+                <!-- 出遊縣市 -->
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <label for="city" class="form-label">出遊縣市<span class="required-mark">*</span></label>
+                        <select class="form-select" id="city" name="city" required>
+                            <option value="">請選擇縣市...</option>
+                            {% for city in city_infos %}
+                                <option value="{{ city.c_id }}">{{ city.c_chinese }}</option>
+                            {% endfor %}
+                        </select>
+                        <div class="invalid-feedback">請選擇出遊縣市</div>
+                    </div>
+                </div>
+
+                <!-- 預算限制 -->
+                <div class="col-md-4 mb-3">
+                    <div class="form-group">
+                        <label for="budget" class="form-label">預算限制<span class="required-mark">*</span></label>
+                        <select class="form-select" id="budget" name="budget" required>
+                            <option value="">請選擇預算...</option>
+                            <option value="0">💰：即使月底了還是想出去玩</option>
+                            <option value="1">💰💰：這月省了點錢能出去玩</option>
+                            <option value="2">💰💰💰：還有點預算能出去玩</option>
+                            <option value="3">💰💰💰💰：月初發薪水就該好好出去玩</option>
+                            <option value="4">💰💰💰💰💰：發獎金了花點錢出去玩不為過吧</option>
+                        </select>
+                        <div class="invalid-feedback">請選擇預算限制</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 時間選擇區塊 -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <label for="startTime" class="form-label">去程時間<span class="required-mark">*</span></label>
+                        <input type="datetime-local" class="form-control" id="startTime" name="startTime" required>
+                        <div class="invalid-feedback" id="startTimeFeedback">請選擇有效的去程時間</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <label for="endTime" class="form-label">回程時間<span class="required-mark">*</span></label>
+                        <input type="datetime-local" class="form-control" id="endTime" name="endTime" required>
+                        <div class="invalid-feedback" id="endTimeFeedback">請選擇有效的回程時間</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <label for="dailyStartTime" class="form-label">每日啟程時間<span class="required-mark">*</span></label>
+                        <input type="time" class="form-control" id="dailyStartTime" name="dailyStartTime" required>
+                        <div class="invalid-feedback" id="dailyStartTimeFeedback">請選擇每日啟程時間</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                        <label for="dailyEndTime" class="form-label">每日回程時間<span class="required-mark">*</span></label>
+                        <input type="time" class="form-control" id="dailyEndTime" name="dailyEndTime" required>
+                        <div class="invalid-feedback" id="dailyEndTimeFeedback">請選擇有效的每日回程時間</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 旅遊模式 -->
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <div class="form-group">
+                        <label class="form-label">旅遊模式<span class="required-mark">*</span></label>
+                        <div class="d-flex gap-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="travelMode" id="fastMode" value="fast" required>
+                                <label class="form-check-label" for="fastMode">
+                                    快節奏，玩更多景點
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="travelMode" id="slowMode" value="slow">
+                                <label class="form-check-label" for="slowMode">
+                                    慢節奏，欣賞城市美景
+                                </label>
+                            </div>
+                        </div>
+                        <div class="invalid-feedback">請選擇旅遊模式</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 權重調整區塊 -->
+        <div class="form-section mb-4">
+            <h5 class="section-title mb-3">權重調整<span class="required-mark">*</span></h5>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="priceLevelWeight" class="form-label">預算權重</label>
+                    <input type="range" class="form-range" id="priceLevelWeight" name="priceLevelWeight"
+                           min="0" max="10" step="0.1" value="5" required>
+                    <div class="d-flex align-items-center">
+                        <span id="priceLevelWeightValue" class="ms-2 weight-value">5.0</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label for="ratingWeight" class="form-label">評價星數權重</label>
+                    <input type="range" class="form-range" id="ratingWeight" name="ratingWeight"
+                           min="0" max="10" step="0.1" value="5" required>
+                    <div class="d-flex align-items-center">
+                        <span id="ratingWeightValue" class="ms-2 weight-value">5.0</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label for="userRatingTotalWeight" class="form-label">評價數量權重</label>
+                    <input type="range" class="form-range" id="userRatingTotalWeight" name="userRatingTotalWeight"
+                           min="0" max="10" step="0.1" value="5" required>
+                    <div class="d-flex align-items-center">
+                        <span id="userRatingTotalWeightValue" class="ms-2 weight-value">5.0</span>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <label for="ngen" class="form-label">迭代次數(越高品質越好但生成時間久)</label>
+                    <input type="range" class="form-range" id="ngen" name="ngen"
+                           min="100" max="500" step="10" value="300" required>
+                    <div class="d-flex align-items-center">
+                        <span id="ngenValue" class="ms-2 weight-value">200</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 景點類型選擇 -->
+        <div class="form-section place-types-container mb-4">
+            <h5 class="section-title">景點類型選擇（1-3個）<span class="required-mark">*</span></h5>
+            <div class="type-grid">
+                {% for type in place_types %}
+                <div class="checkbox-wrapper mb-3">
+                    <div class="input-group">
+                        <div class="input-group-text">
+                            <input type="checkbox" class="place-type-checkbox form-check-input"
+                                   name="placeTypes[]" value="{{ type.place_types }}"
+                                   id="placeType_{{ type.place_types }}">
+                        </div>
+                        <label class="form-control" for="placeType_{{ type.place_types }}">{{ type.k_name }}</label>
+                    </div>
+                    <div class="mt-2">
+                        <input type="text" class="form-control keyword-input"
+                               name="placeTypeKeywords_{{ type.place_types }}"
+                               placeholder="輸入關鍵字（選填，以逗號分隔）"
+                               disabled>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div id="placeTypesCount" class="type-count mt-2">已選擇 0 個類型</div>
+            <div class="invalid-feedback">請選擇1-3個景點類型</div>
+        </div>
+
+        <!-- 觀光景點類型選擇 -->
+        <div class="form-section tourist-types-container mb-4">
+            <h5 class="section-title">觀光景點類型選擇（5-10個）<span class="required-mark">*</span></h5>
+            <div class="flex-center">
+                <div class="flexible-grid">
+                    {% for keyword in tourist_keywords %}
+                    <div class="pill-checkbox">
+                        <input type="checkbox" class="btn-check tourist-type-checkbox form-check-input"
+                               name="touristTypes[]" value="{{ keyword.k_id }}"
+                               id="touristType_{{ keyword.k_id }}">
+                        <label class="btn btn-outline-primary pill-label" for="touristType_{{ keyword.k_id }}">
+                            {{ keyword.k_name }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="touristTypesCount" class="type-count mt-2">已選擇 0 個類型</div>
+            <div class="invalid-feedback d-none">請選擇5-10個觀光景點類型</div>
+            <div class="keywords-input mt-3">
+                <input type="text" class="form-control" name="touristKeywords"
+                       placeholder="自訂關鍵字（選填，以逗號分隔）">
+                <div class="invalid-feedback">關鍵字格式不正確</div>
+            </div>
+        </div>
+
+        <!-- 食物類型選擇 -->
+        <div class="form-section food-types-container mb-4">
+            <h5 class="section-title">食物類型選擇（5-10個）<span class="required-mark">*</span></h5>
+            <div class="flex-center">
+                <div class="flexible-grid">
+                    {% for keyword in food_keywords %}
+                    <div class="pill-checkbox">
+                        <input type="checkbox" class="btn-check food-type-checkbox form-check-input"
+                               name="foodTypes[]" value="{{ keyword.k_id }}"
+                               id="foodType_{{ keyword.k_id }}">
+                        <label class="btn btn-outline-primary pill-label" for="foodType_{{ keyword.k_id }}">
+                            {{ keyword.k_name }}
+                        </label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="foodTypesCount" class="type-count mt-2">已選擇 0 個類型</div>
+            <div class="invalid-feedback d-none">請選擇5-10個食物類型</div>
+            <div class="keywords-input mt-3">
+                <input type="text" class="form-control" name="foodKeywords"
+                       placeholder="自訂關鍵字（選填，以逗號分隔）">
+                <div class="invalid-feedback">關鍵字格式不正確</div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">開始規劃旅程</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/preference_validator.js') }}"></script>
+{% endblock %}

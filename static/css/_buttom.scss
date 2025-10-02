@@ -1,0 +1,104 @@
+.btn {
+    min-width: 120px;
+    min-height: 48px;
+    font-weight: 900;
+}
+/* 按鈕樣式 */
+.pill-checkbox {
+    display: inline-block;
+}
+
+.pill-checkbox .btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: white;
+    border: 2px solid #ced4da;
+    transition: all 0.15s ease-in-out;
+    line-height: 1.5;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    min-width: fit-content;
+    margin: 3px;
+    white-space: nowrap;
+}
+
+.btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+    background-color: transparent;
+}
+
+.btn-check:checked + .btn-outline-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-outline-primary:disabled,
+.btn-outline-primary.disabled {
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: transparent;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* 增加選中效果的過渡動畫 */
+.btn-check + .btn {
+    transition: all 0.2s ease-in-out;
+}
+
+/* 確保按鈕組樣式正確 */
+.btn-group-toggle {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* 修改觀光景點和食物類型的按鈕樣式 */
+.tourist-types-container .btn,
+.food-types-container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    flex: 1;
+    border-radius: 100px;  /* 增加圓角 */
+    padding: 6px 20px;    /* 稍微增加左右內邊距 */
+}
+
+/* 確保選中狀態的圓角保持一致 */
+.tourist-types-container .btn-check:checked + .btn,
+.food-types-container .btn-check:checked + .btn {
+    border-radius: 100px;
+}
+
+/* 調整hover狀態的圓角 */
+.tourist-types-container .btn:hover,
+.food-types-container .btn:hover {
+    border-radius: 100px;
+}
+
+/* 提交按鈕樣式 */
+.btn-primary {
+    padding: 8px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}

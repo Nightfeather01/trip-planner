@@ -1,0 +1,1039 @@
+{
+  "total_places": 20,
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4812766,
+          "lng": 120.4690514
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4820385302915,
+            "lng": 120.4705337802915
+          },
+          "southwest": {
+            "lat": 23.47934056970849,ㄎ
+            "lng": 120.4678358197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "嘉義公園射日塔",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115908604443411685369\">Allen</a>"
+          ],
+          "photo_reference": "AdDdOWo76rJOrngJqC8tQLumGdiij6yVWxMfQre-AGY8OHNI0mAgXs4gPmfOgewSdlxF0QEmiJnclsDlSI5WmhKaVU4AJJsfVsv6PFifjbw9QviAicY3U5yg6ApITo9aybcTU6IeGHamKHT6do5l0PsQ5xNLJxYV4Wyk-9F-zlyZC36jGhwd",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJHx27NU2UbjQRMYjtb-KSE3M",
+      "plus_code": {
+        "compound_code": "FFJ9+GJ 台灣嘉義市東區王田里",
+        "global_code": "7QM2FFJ9+GJ"
+      },
+      "rating": 4.1,
+      "reference": "ChIJHx27NU2UbjQRMYjtb-KSE3M",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4264,
+      "vicinity": "東區公園街46號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4822401,
+          "lng": 120.4665004
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4832047802915,
+            "lng": 120.4673535
+          },
+          "southwest": {
+            "lat": 23.48050681970849,
+            "lng": 120.4641867
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "嘉義市孔子廟",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3072,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109748807367850304847\">鄧學生</a>"
+          ],
+          "photo_reference": "AdDdOWoKIBtAq3h5ZSzGytrmeRXz4dFG7w3jeNA4xa_NmoCJJtGibxXPNrCJzwkQcQn3P-LDRt3hRpCedf66shr2QoWZR2FKg5wFbcxpCc15Z8vRnvcYOFadcGGhVrA6iLuvacytTVzQ7pi0Dv881NLy1N8i6KK0ZVA01s_otTyMxErsdqNM",
+          "width": 4080
+        }
+      ],
+      "place_id": "ChIJ0xyrM7OVbjQRBaX5sONqwU4",
+      "plus_code": {
+        "compound_code": "FFJ8+VJ 台灣嘉義市東區東川里",
+        "global_code": "7QM2FFJ8+VJ"
+      },
+      "rating": 4.2,
+      "reference": "ChIJ0xyrM7OVbjQRBaX5sONqwU4",
+      "scope": "GOOGLE",
+      "types": [
+        "place_of_worship",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 123,
+      "vicinity": "嘉義公園內, 公園街, 東區"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.486649,
+          "lng": 120.448254
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4878655302915,
+            "lng": 120.4495290802915
+          },
+          "southwest": {
+            "lat": 23.4851675697085,
+            "lng": 120.4468311197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "森林之歌",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111220581102501324944\">陳冠廷</a>"
+          ],
+          "photo_reference": "AdDdOWpIP2jt_KIavnMCvvwF04q-p3eG7ZIlcY7SeDBAiULAM7jaPG8fCMQZSYaZuflwYJRHOOBa1rQgEiOUqiLTErdD3ur3CtHC1kwhGOTC8kNLHQZqU3YOZ9WfQe3kD1dnL9Y9Nr8eyVOBUBBSnrOT7i4kl3VMo-P5bST6ggjrSGXYcx1t",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJY3tuyjKUbjQRykskI4yLiX4",
+      "plus_code": {
+        "compound_code": "FCPX+M8 台灣嘉義市東區",
+        "global_code": "7QM2FCPX+M8"
+      },
+      "rating": 4.2,
+      "reference": "ChIJY3tuyjKUbjQRykskI4yLiX4",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5764,
+      "vicinity": "東區文化路"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.48332989999999,
+          "lng": 120.4652307
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4851157302915,
+            "lng": 120.4665607802915
+          },
+          "southwest": {
+            "lat": 23.4824177697085,
+            "lng": 120.4638628197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+      "icon_background_color": "#4DB546",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+      "name": "嘉義公園",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 4000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108793357314577796793\">Kate Lai</a>"
+          ],
+          "photo_reference": "AdDdOWoU00DbwAD9qNjmEMGxHbh9qBN8QbGsRwcTeaULX0MrNs-kc5rDgq5hA3hx40j5zO3rTbhM80PohqPBHPSBmh2tN1L09G67y8g_sHRskQL-1enzsySMsmlRL_8iV2igidCwQE2IrgA_dNLef2Cnz-MPAjv31dpw4_-Zhxh_lXyl-KD0",
+          "width": 3000
+        }
+      ],
+      "place_id": "ChIJw58UX7OVbjQRj_JrF6q5EdA",
+      "plus_code": {
+        "compound_code": "FFM8+83 台灣嘉義市東區王田里",
+        "global_code": "7QM2FFM8+83"
+      },
+      "rating": 4.4,
+      "reference": "ChIJw58UX7OVbjQRj_JrF6q5EdA",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 14676,
+      "vicinity": "東區啟明路264號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4796013,
+          "lng": 120.449684
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4809478802915,
+            "lng": 120.4510121302915
+          },
+          "southwest": {
+            "lat": 23.4782499197085,
+            "lng": 120.4483141697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "文化路觀光夜市",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 4608,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104813756913566933231\">劉信宏（ㄚ宏）</a>"
+          ],
+          "photo_reference": "AdDdOWr9djoBhXN53ULcTydzV_Hzg-3qQtTd5sLmdsLdqwA9f4v8Czrf-8XVhnxSt8SU4nN_ijttQUl0YpGQ5hxfXM94eKAt8PLcHpEfEkaW94HbNSFRKCCsQ1iyUN6N6X3NSSHwVQzEPVHqJMSk6ZV2arYHpSEsnlh0wO6RagyCvp5Gmtgv",
+          "width": 3456
+        }
+      ],
+      "place_id": "ChIJOb9FZtKVbjQR_BRx7_pZiVU",
+      "plus_code": {
+        "compound_code": "FCHX+RV 台灣嘉義市西區",
+        "global_code": "7QM2FCHX+RV"
+      },
+      "rating": 4.2,
+      "reference": "ChIJOb9FZtKVbjQR_BRx7_pZiVU",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "user_ratings_total": 29794,
+      "vicinity": "西區文化路"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4720461,
+          "lng": 120.4314952
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4731756802915,
+            "lng": 120.4326319302915
+          },
+          "southwest": {
+            "lat": 23.47047771970849,
+            "lng": 120.4299339697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "嘉樂福夜市",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107302295123445205197\">Mi ne</a>"
+          ],
+          "photo_reference": "AdDdOWp_HWUAUUCh0QAp9HasmDZe2pyt7a_dWdnluJ9XQ0GUCrmvKiUUtu7Am_-3NTI3l2zCJ19Dcl46zKduGj8OU9DN1NLEy1dLcr4V1LSZS4e2xR51iFA8NobBKiDkyGJ_QVwK9z1Y0CNySjLujQr7sM46CKMowAFfa8oa4rHnMudYL54-",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJRwQAKNOVbjQRp_0AuG4cc60",
+      "plus_code": {
+        "compound_code": "FCCJ+RH 台灣嘉義市西區西平里",
+        "global_code": "7QM2FCCJ+RH"
+      },
+      "rating": 3.9,
+      "reference": "ChIJRwQAKNOVbjQRp_0AuG4cc60",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 18002,
+      "vicinity": "西區博愛路二段467號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4871617,
+          "lng": 120.4517201
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4883592802915,
+            "lng": 120.4532365302915
+          },
+          "southwest": {
+            "lat": 23.4856613197085,
+            "lng": 120.4505385697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+      "name": "嘉義市立博物館",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111203634308632084681\">宋湘仁</a>"
+          ],
+          "photo_reference": "AdDdOWppfavdefOzQ2uInmw8OqTSn2Z7_Ir2Yd5om9RRXmA2eBkiyxfhZOBhjDaWG-JfeWtbrhyDitZZPjAcopv0jfPddU-45xJn3P-ZNtsDaXu4cXMXBfE-JviAP-48Lhmg44BKCAtZIWzgr9TVKob6OP70RH7SCBPefznsG21bWaGCZg1f",
+          "width": 4000
+        }
+      ],
+      "place_id": "ChIJIXui7MyVbjQRSJfxMod_QfM",
+      "plus_code": {
+        "compound_code": "FFP2+VM 台灣嘉義市東區北門里",
+        "global_code": "7QM2FFP2+VM"
+      },
+      "rating": 4.4,
+      "reference": "ChIJIXui7MyVbjQRSJfxMod_QfM",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2850,
+      "vicinity": "東區忠孝路275-1號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4856377,
+          "lng": 120.454812
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.48749495,
+            "lng": 120.4556275802915
+          },
+          "southwest": {
+            "lat": 23.48394434999999,
+            "lng": 120.4529296197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "檜意森活村",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1108,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118127238785386741906\">檜意森活村</a>"
+          ],
+          "photo_reference": "AdDdOWrk8CCjHrjJDokZ3U4348bay3_sup41bTo2fXM7F-2_cY_1gwegH1L_LtHKg-f3B_QmZvewyqt0uGu8FmqWaPpXjwc1fhWAxFdrNRnGklAbAtS_2UoHyHgZYqW4ZUMDJQ1qqAV56uVPCI2v7Ru7t1x3jCQGAy_rpxSJyG5my84rGxgy",
+          "width": 1478
+        }
+      ],
+      "place_id": "ChIJOb09b8uVbjQRigoLMNW9rpE",
+      "plus_code": {
+        "compound_code": "FFP3+7W 台灣嘉義市東區林森里",
+        "global_code": "7QM2FFP3+7W"
+      },
+      "rating": 4.3,
+      "reference": "ChIJOb09b8uVbjQRigoLMNW9rpE",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 36999,
+      "vicinity": "東區共和路370號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.483155,
+          "lng": 120.4563395
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4845940802915,
+            "lng": 120.4576746802915
+          },
+          "southwest": {
+            "lat": 23.48189611970849,
+            "lng": 120.4549767197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "嘉邑九華山地藏庵",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 538,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115673984126696281797\">老莫Say透透</a>"
+          ],
+          "photo_reference": "AdDdOWr0f-DUOib0HwC_lMx64NpJ_PfXTivf51ESecVAbY_mOq_14kdZs_J0hvFWzz3-b0AHaA9EuR8eDvnllOz2xucjpOFFjOoOr8uPIV6kHJe2wBltCgfh68lXa-bE_GaKJ8NgMwb2Kd9FbrnRs6MC-H95LRBFVMttBiK1e8J4wWZKdYpb",
+          "width": 1024
+        }
+      ],
+      "place_id": "ChIJFefxJDWUbjQRXsoKifrWy1o",
+      "plus_code": {
+        "compound_code": "FFM4+7G 台灣嘉義市東區中山里",
+        "global_code": "7QM2FFM4+7G"
+      },
+      "rating": 4.6,
+      "reference": "ChIJFefxJDWUbjQRXsoKifrWy1o",
+      "scope": "GOOGLE",
+      "types": [
+        "place_of_worship",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1072,
+      "vicinity": "東區民權路255號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4861648,
+          "lng": 120.4586564
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4875059302915,
+            "lng": 120.4598683302915
+          },
+          "southwest": {
+            "lat": 23.4848079697085,
+            "lng": 120.4571703697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "國定古蹟-嘉義舊監獄",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 1365,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101037061499976560497\">嘉義舊監獄</a>"
+          ],
+          "photo_reference": "AdDdOWrkrFByeU-C8PaCaxAfgjAra45C4sYcbl1wu2mkJuU3A8EseEteDlt0w4zFD_4NbNz7tMzgEecNPTKvOUlDlDnlxU7iAKa2nEvg5KFYykv9TkzMi7gllqVZQRQm8G3cJMTjVVlxAscE-UiZPRrBPgw7S_s1PqzkNdTqn9Ooy9tDp0ED",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJZQXTocqVbjQRC5IKyMH0RdY",
+      "plus_code": {
+        "compound_code": "FFP5+FF 台灣嘉義市東區太平里",
+        "global_code": "7QM2FFP5+FF"
+      },
+      "rating": 4.3,
+      "reference": "ChIJZQXTocqVbjQRC5IKyMH0RdY",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5556,
+      "vicinity": "東區維新路140號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4863428,
+          "lng": 120.4512608
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4877393302915,
+            "lng": 120.4525820302915
+          },
+          "southwest": {
+            "lat": 23.4850413697085,
+            "lng": 120.4498840697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "阿里山森林鐵路車庫園區",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 6936,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108985047628868189867\">洪梓祐</a>"
+          ],
+          "photo_reference": "AdDdOWqyfPzhUMz0IO9hydX9PLX5S45wUDspHkc5dSbuftnP3wyrO4fV2495HNMbWnqXIAbxNvs4x9AAqfl19z_2CGIQ57l5KB2tp6n0ofnpA5lN2eLRGVmevyUP3lMjaws8fu22iCypcxCI8wEIDXOSAT8aQ-RK9BtWgrB6a-OxGk2476UQ",
+          "width": 9248
+        }
+      ],
+      "place_id": "ChIJxQNAhDKUbjQR0rls6oi0wfA",
+      "plus_code": {
+        "compound_code": "FFP2+GG 台灣嘉義市東區北門里",
+        "global_code": "7QM2FFP2+GG"
+      },
+      "rating": 4.2,
+      "reference": "ChIJxQNAhDKUbjQR0rls6oi0wfA",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 8005,
+      "vicinity": "東區林森西路2號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4799152,
+          "lng": 120.4496322
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.48126418029151,
+            "lng": 120.4510454802915
+          },
+          "southwest": {
+            "lat": 23.4785662197085,
+            "lng": 120.4483475197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "中央噴水池",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107571468539319971111\">Patrick YT</a>"
+          ],
+          "photo_reference": "AdDdOWr3s2UI9lhP6SAdd0MaV278d1ZQgoy5jAQIz4X4logJ4aTbKgQPYRJKfJ-YtoHfqJQRbZMVD4HsWBcw_DjhPxAO5Z52A8E6MXfgA-M1IMu5fX7qzBo63etPDku26hHi4MD_6JZjEJQuHzg1V4FtAUrFmP0igLUoJ2v9UBmd3EiyyMk0",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJvXO3hTGUbjQRcNd5PHDr8lQ",
+      "plus_code": {
+        "compound_code": "FCHX+XV 台灣嘉義市西區",
+        "global_code": "7QM2FCHX+XV"
+      },
+      "rating": 4.3,
+      "reference": "ChIJvXO3hTGUbjQRcNd5PHDr8lQ",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 899,
+      "vicinity": "西區嘉義市七彩噴水圓環"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.465877,
+          "lng": 120.48071
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4671322302915,
+            "lng": 120.4821522302915
+          },
+          "southwest": {
+            "lat": 23.4644342697085,
+            "lng": 120.4794542697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "蘭潭月影潭心",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3072,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/107233471226657781212\">吳順風</a>"
+          ],
+          "photo_reference": "AdDdOWq0CqbkDGYZEDP9neyHwc71p1sUoGM26uKCtF9qh8hu8CzurUgG7a_m2j7Fy8gW4BOa5-Wl1X2bSBO2it3WEDDH5XluMSAVvHcJI7_JxVJYOgJAhgGoF7MdMTk_gtWHKh2Ioj7z3npORfXWU-VLQ8z9K2VuSYISmT93cNbst63CbfCe",
+          "width": 4080
+        }
+      ],
+      "place_id": "ChIJy3BFYViUbjQRi9ogODhF5v0",
+      "plus_code": {
+        "compound_code": "FF8J+97 台灣嘉義市東區鹿寮里",
+        "global_code": "7QM2FF8J+97"
+      },
+      "rating": 4.2,
+      "reference": "ChIJy3BFYViUbjQRi9ogODhF5v0",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3789,
+      "vicinity": "東區鹿寮里紅毛埤187-4號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4812987,
+          "lng": 120.4690648
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.48215545,
+            "lng": 120.4705191302915
+          },
+          "southwest": {
+            "lat": 23.47942005,
+            "lng": 120.4678211697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "嘉義忠烈祠",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2592,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104226142751451065039\">Tsungjung Lee</a>"
+          ],
+          "photo_reference": "AdDdOWrMqEU2dZ0QahjlZtau7KRQLjdnDMeRhQavChuYIuLW9CI1vN3uCLaYE1gU5j_qn8nP9amuX7QJRy2s_LV4dN_rkTk7cXXXOXvurFhDJ-4m5lEaF0fKW8v_v2Xd45-phag1tRXs9DJ2UVLc0IrIJa1BWy418havwbfFUeUgqCr_iqKt",
+          "width": 3888
+        }
+      ],
+      "place_id": "ChIJyRC7NU2UbjQRSs7ms7ltYEU",
+      "plus_code": {
+        "compound_code": "FFJ9+GJ 台灣嘉義市東區",
+        "global_code": "7QM2FFJ9+GJ"
+      },
+      "rating": 4,
+      "reference": "ChIJyRC7NU2UbjQRSs7ms7ltYEU",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 49,
+      "vicinity": "東區"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4813114,
+          "lng": 120.451528
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.48262713029151,
+            "lng": 120.4528949302915
+          },
+          "southwest": {
+            "lat": 23.4799291697085,
+            "lng": 120.4501969697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_dharma-71.png",
+      "icon_background_color": "#7B9EB0",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "太元寺",
+      "photos": [
+        {
+          "height": 1200,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117515609604633187810\">An Lou</a>"
+          ],
+          "photo_reference": "AdDdOWo1NLBjBslNFsN4lw34-zwInBneJA9KpD0_fTWcg6eMQMRERjmdrfy87Ygkpw9CUGt0g834Myvi2qkVuXlh0zCfNrJv96IdA7t5YG8SfZG-jB6uRZb02y6v0EcO-xE6OGez2gpnln0zv6NXIQaJ-4z6CZvH4OVGWz037hvVylLGkPpF",
+          "width": 1600
+        }
+      ],
+      "place_id": "ChIJ0VbqvzOUbjQRouKYlFaDFDU",
+      "plus_code": {
+        "compound_code": "FFJ2+GJ 台灣嘉義市東區中央里",
+        "global_code": "7QM2FFJ2+GJ"
+      },
+      "rating": 4.4,
+      "reference": "ChIJ0VbqvzOUbjQRouKYlFaDFDU",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 39,
+      "vicinity": "東區成仁街207巷3號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4852545,
+          "lng": 120.4541869
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4867302302915,
+            "lng": 120.4557370802915
+          },
+          "southwest": {
+            "lat": 23.4840322697085,
+            "lng": 120.4530391197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+      "name": "檜意森活村T21.22 霞光寶物珍藏村",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102029059579158389802\">DEAN HSU (deepsky)</a>"
+          ],
+          "photo_reference": "AdDdOWok_XEOXA7Z5iH9p1z-v8pfwS5I8G9_PQEX_nyC-nNNqT8SG7tx_3mtdTxWCDWrkJPicU6g2ACKeKHpDC93tQKkdee1eQuu7Ew8pEf-L7cvNTGhSkUpnUbZHW-M1eSwlIzrV_yydESzWJ65DG5e8P78pJtDt1CTbImcutVRaxohtmNr",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJiV7-Q8uVbjQRi2z5IUjaHFY",
+      "plus_code": {
+        "compound_code": "FFP3+4M 台灣嘉義市東區林森里",
+        "global_code": "7QM2FFP3+4M"
+      },
+      "rating": 4.4,
+      "reference": "ChIJiV7-Q8uVbjQRi2z5IUjaHFY",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 166,
+      "vicinity": "東區共和路191巷3號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4857232,
+          "lng": 120.4542565
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4869785802915,
+            "lng": 120.4557849802915
+          },
+          "southwest": {
+            "lat": 23.4842806197085,
+            "lng": 120.4530870197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "name": "蓮花池",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110603796354915711781\">andy huang</a>"
+          ],
+          "photo_reference": "AdDdOWqx6Ug3yRrllzKWFEw1J1DDTKeQn0MDYrNgmUp87Ph2M89wBwbaADekdpQpssCShr8XYpZ6yB0W16eqEDqNZXQZkia1l3ZUw22idBJuo-gBz-p8Qypw9e0J8z3JP9tNYg8i0E7O9ATpfLOqyMQQ5u42s-nMm24t16GIVw9BCPzNM0yj",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJgcQ6QcuVbjQRER7wfXWgx0c",
+      "plus_code": {
+        "compound_code": "FFP3+7P 台灣嘉義市西區",
+        "global_code": "7QM2FFP3+7P"
+      },
+      "rating": 4.2,
+      "reference": "ChIJgcQ6QcuVbjQRER7wfXWgx0c",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 23,
+      "vicinity": "西區嘉義 市"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4833579,
+          "lng": 120.4460308
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4846623802915,
+            "lng": 120.4474102802915
+          },
+          "southwest": {
+            "lat": 23.4819644197085,
+            "lng": 120.4447123197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+      "icon_background_color": "#13B5C7",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+      "name": "臺灣花磚博物館",
+      "opening_hours": {
+        "open_now": false
+      },
+      "photos": [
+        {
+          "height": 1365,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101511642622863918504\">林哲儀</a>"
+          ],
+          "photo_reference": "AdDdOWoCTOc-DXCLsknBrl5m9wT_WXozL1swUVSXRIP4zohfbXIFeHZTw6y0_i9dOngmW1rRPEYTdljYuiCbyW-z_zlZXLBinoJ4769XOPe6T4WP08WL3rjVXYldG0Q-tnYQ6t4ZsVIErVFB-B_3l7iqNetjTyRswfhRlkcV355T82zjw4YS",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJJU4OmS2UbjQRgjVPo5_9ARw",
+      "plus_code": {
+        "compound_code": "FCMW+8C 台灣嘉義市西區國華里",
+        "global_code": "7QM2FCMW+8C"
+      },
+      "rating": 4.5,
+      "reference": "ChIJJU4OmS2UbjQRgjVPo5_9ARw",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3968,
+      "vicinity": "西區林森西路282號"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4848998,
+          "lng": 120.4577173
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.4860605802915,
+            "lng": 120.4590909802915
+          },
+          "southwest": {
+            "lat": 23.4833626197085,
+            "lng": 120.4563930197085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+      "icon_background_color": "#4DB546",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+      "name": "長榮公園",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3432,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/102791059442416113735\">青應麒</a>"
+          ],
+          "photo_reference": "AdDdOWqaiE0681PXWMr32VG1n-60EkxKauOv_8uUHE1XZW5NJcyfQcNOoEYyJoxwBnCLrIqg1eMYjKZ3oV_dCyU0H937Y3BHPEgnLciyU72CQdmZWIvi_KH_RhT8HOyPzHxXMcilQTUizKSqTqvHZ1-oPFE8VBgdj49Wis46gVGtZXlBNXNd",
+          "width": 4576
+        }
+      ],
+      "place_id": "ChIJty5TXTOUbjQRIi-E_EFA3UY",
+      "plus_code": {
+        "compound_code": "FFM5+X3 台灣嘉義市西區",
+        "global_code": "7QM2FFM5+X3"
+      },
+      "rating": 3.9,
+      "reference": "ChIJty5TXTOUbjQRIi-E_EFA3UY",
+      "scope": "GOOGLE",
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 428,
+      "vicinity": "西區長榮街"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.4793172,
+          "lng": 120.4419553
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 23.48062038029151,
+            "lng": 120.4433589302915
+          },
+          "southwest": {
+            "lat": 23.4779224197085,
+            "lng": 120.4406609697085
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "旺萊山嘉義車站店",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3730,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108600824406838436539\">酷猫猫</a>"
+          ],
+          "photo_reference": "AdDdOWp3Z6d9uO9CCTuemW_NNrraITEGDvqRiedIdE8KMKg9wMlTmLdlMS0DVftz1xrUmgMxk8O2ofTzf0BBqONy1qRzasUDSbjn-qCdyIS8zRIHFOk2tYwGyjInqfqO5IJQXMArLzBSromQFTPlEukW0s-sNedwEgQhHySRt0qb5gj5SFqm",
+          "width": 3072
+        }
+      ],
+      "place_id": "ChIJifLCEMuVbjQRo3r7xBEceG0",
+      "plus_code": {
+        "compound_code": "FCHR+PQ 台灣嘉義市西區番社里",
+        "global_code": "7QM2FCHR+PQ"
+      },
+      "rating": 4,
+      "reference": "ChIJifLCEMuVbjQRo3r7xBEceG0",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "bakery",
+        "restaurant",
+        "point_of_interest",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "user_ratings_total": 41,
+      "vicinity": "西區中山路520號"
+    }
+  ]
+}

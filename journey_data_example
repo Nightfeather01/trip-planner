@@ -1,0 +1,3516 @@
+
+        journey_data={
+            "journey": [
+                {
+                    "place_id": "ChIJvXO3hTGUbjQRcNd5PHDr8lQ",
+                    "place_name": "中央噴水池",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              23,
+                                                              8,
+                                                              0),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            23,
+                                                            10,
+                                                            30),
+                    "lat": 23.4799,
+                    "lng": 120.45,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 903
+                },
+                {
+                    "place_id": "ChIJu4b-GaSVbjQRHea8llVPDF8",
+                    "place_name": "有感港點餐酒館",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              23,
+                                                              10,
+                                                              43,
+                                                              54),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            23,
+                                                            13,
+                                                            30),
+                    "lat": 23.4782,
+                    "lng": 120.442,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:30:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:30:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.6,
+                    "user_rating_totals": 1962
+                },
+                {
+                    "place_id": "ChIJq5rD_J-WbjQRELQTSfcAVqc",
+                    "place_name": "興嘉公園",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              23,
+                                                              13,
+                                                              48,
+                                                              55),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            23,
+                                                            16,
+                                                            30),
+                    "lat": 23.4679,
+                    "lng": 120.436,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.9,
+                    "user_rating_totals": 1503
+                },
+                {
+                    "place_id": "ChIJY3tuyjKUbjQRykskI4yLiX4",
+                    "place_name": "森林之歌",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              23,
+                                                              16,
+                                                              50,
+                                                              21),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            23,
+                                                            19,
+                                                            30),
+                    "lat": 23.4866,
+                    "lng": 120.448,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 5770
+                },
+                {
+                    "place_id": "ChIJk-Dd5xaVbjQRbg5LNfn_IAM",
+                    "place_name": "老乾杯 嘉義耐斯王子店",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              23,
+                                                              19,
+                                                              43,
+                                                              43),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            23,
+                                                            22,
+                                                            30),
+                    "lat": 23.4966,
+                    "lng": 120.453,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "23:00:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "23:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.6,
+                    "user_rating_totals": 551
+                },
+                {
+                    "place_id": "ChIJo3zp5bKVbjQRFj-k43VK2Mg",
+                    "place_name": "林業試驗所嘉義樹木園",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              24,
+                                                              5,
+                                                              0),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            24,
+                                                            7,
+                                                            30),
+                    "lat": 23.4839,
+                    "lng": 120.468,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.6,
+                    "user_rating_totals": 1094
+                },
+                {
+                    "place_id": "ChIJla4-TWqUbjQRdGEcQTFeDjY",
+                    "place_name": "八掌溪親水公園",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              24,
+                                                              8,
+                                                              3,
+                                                              8),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            24,
+                                                            10,
+                                                            30),
+                    "lat": 23.4588,
+                    "lng": 120.463,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "04:00:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "04:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 640
+                },
+                {
+                    "place_id": "ChIJE-XK30mUbjQRqXI6yM1anwM",
+                    "place_name": "圓環火雞大王",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              24,
+                                                              11,
+                                                              14,
+                                                              44),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            24,
+                                                            13,
+                                                            30),
+                    "lat": 23.4769,
+                    "lng": 120.459,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.8,
+                    "user_rating_totals": 714
+                },
+                {
+                    "place_id": "ChIJb_-7NzWUbjQR1cPDwL-uOZQ",
+                    "place_name": "桃城三禾火雞肉飯",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              24,
+                                                              13,
+                                                              45,
+                                                              7),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            24,
+                                                            16,
+                                                            30),
+                    "lat": 23.4839,
+                    "lng": 120.461,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "19:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "19:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 3183
+                },
+                {
+                    "place_id": "ChIJOb9FZtKVbjQR_BRx7_pZiVU",
+                    "place_name": "文化路觀光夜市",
+                    "place_start_datetime": datetime(2024,
+                                                              11,
+                                                              24,
+                                                              16,
+                                                              41,
+                                                              44),
+                    "place_end_datetime": datetime(2024,
+                                                            11,
+                                                            24,
+                                                            19,
+                                                            30),
+                    "lat": 23.4796,
+                    "lng": 120.45,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "15:30:00",
+                            "23:00:00"
+                        ],
+                        "6": [
+                            "15:30:00",
+                            "23:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 29832
+                }
+            ],
+            "route": {
+                "status": "OK",
+                "routes_data": [
+                    {
+                        "origin_id": "ChIJvXO3hTGUbjQRcNd5PHDr8lQ",
+                        "destination_id": "ChIJu4b-GaSVbjQRHea8llVPDF8",
+                        "departure_time": "2024-11-23 10:30:00",
+                        "arrival_time": "2024-11-23 10:43:54",
+                        "total_duration": "14 分鐘",
+                        "total_duration_value": 834,
+                        "total_distance": "0.9 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "14 分鐘",
+                                "duration_value": 834,
+                                "html_instructions": "步行到600台灣嘉義市西區仁愛路548-558號",
+                                "distance": "0.9 公里"
+                            }
+                        ],
+                        "overview_polyline": "k|hnCokd~UAn@B?F@FDHN?PCFKLGBE?R~Df@dMn@hOR`G~AzAvBO"
+                    },
+                    {
+                        "origin_id": "ChIJu4b-GaSVbjQRHea8llVPDF8",
+                        "destination_id": "ChIJq5rD_J-WbjQRELQTSfcAVqc",
+                        "departure_time": "2024-11-23 13:30:00",
+                        "arrival_time": "2024-11-23 13:48:55",
+                        "total_duration": "19 分鐘",
+                        "total_duration_value": 1135,
+                        "total_distance": "2.2 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "2 分鐘",
+                                "duration_value": 104,
+                                "html_instructions": "步行到嘉義火車站",
+                                "distance": "0.1 公里"
+                            },
+                            {
+                                "travel_mode": "TRANSIT",
+                                "duration": "1 分鐘",
+                                "duration_value": 78,
+                                "html_instructions": "公車 開往嘉義縣公車大雅站",
+                                "distance": "1.0 公里",
+                                "transit_type": "BUS",
+                                "line_name": "嘉義-溪心寮",
+                                "departure_stop": "嘉義火車站",
+                                "arrival_stop": "新光三越遠東站",
+                                "departure_time": "",
+                                "arrival_time": ""
+                            },
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "16 分鐘",
+                                "duration_value": 951,
+                                "html_instructions": "步行到600台灣嘉義市西區興業西路418號",
+                                "distance": "1.1 公里"
+                            }
+                        ],
+                        "overview_polyline": "uqhnC}xb~Uw@DCdAOT_@_@OHJMlAhAxD`DTNrAh@dCz@fFxB~CQvG_@KuDSqGE{AO@F~@B`@HRLzCpAKVGJbABFB@N?j@?BHb@l@Xr@H^DVpCIJf@@RNhBJbDTnD@b@Jr@Rx@Vl@Td@p@`Ab@`@fCUhFW"
+                    },
+                    {
+                        "origin_id": "ChIJq5rD_J-WbjQRELQTSfcAVqc",
+                        "destination_id": "ChIJY3tuyjKUbjQRykskI4yLiX4",
+                        "departure_time": "2024-11-23 16:30:00",
+                        "arrival_time": "2024-11-23 16:50:21",
+                        "total_duration": "20 分鐘",
+                        "total_duration_value": 1221,
+                        "total_distance": "3.2 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "9 分鐘",
+                                "duration_value": 531,
+                                "html_instructions": "步行到京城銀行(新民路)",
+                                "distance": "0.6 公里"
+                            },
+                            {
+                                "travel_mode": "TRANSIT",
+                                "duration": "5 分鐘",
+                                "duration_value": 294,
+                                "html_instructions": "公車 開往民雄工業區服務中心",
+                                "distance": "2.1 公里",
+                                "transit_type": "BUS",
+                                "line_name": "彌陀夜市-民雄工業區服務中心",
+                                "departure_stop": "京城銀行(新民路)",
+                                "arrival_stop": "林業鐵路車庫園區",
+                                "departure_time": "",
+                                "arrival_time": ""
+                            },
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "6 分鐘",
+                                "duration_value": 381,
+                                "html_instructions": "步行到600台灣嘉義市西區文化路355號",
+                                "distance": "0.4 公里"
+                            }
+                        ],
+                        "overview_polyline": "iqfnC{ra~U`AEQoCc@AOKs@i@OKGe@AWEQGOYGe@AM@ESUs@O[u@g@i@[OCGIg@[i@GEaBBKAqAEq@CCCACYTAAU@TU@aAF}@F]FqCH{FTUDeG\\kCFg@I{JyDg@UgB{AeCuB{@{@_B{AeGqFmBaBo@k@c@_@QIKAQQUOmBcBaB{AQSCe@i@kBkBmGeAkDSq@m@wBPGQFl@vBPj@UDy@TyBl@GUCIGBGAQ?c@Ec@HI@MCCI?IGKIG[CMFOT[NFP@ZGRMRMQ"
+                    },
+                    {
+                        "origin_id": "ChIJY3tuyjKUbjQRykskI4yLiX4",
+                        "destination_id": "ChIJk-Dd5xaVbjQRbg5LNfn_IAM",
+                        "departure_time": "2024-11-23 19:30:00",
+                        "arrival_time": "2024-11-23 19:43:43",
+                        "total_duration": "14 分鐘",
+                        "total_duration_value": 823,
+                        "total_distance": "2.4 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "6 分鐘",
+                                "duration_value": 375,
+                                "html_instructions": "步行到林業鐵路車庫園區",
+                                "distance": "0.4 公里"
+                            },
+                            {
+                                "travel_mode": "TRANSIT",
+                                "duration": "4 分鐘",
+                                "duration_value": 228,
+                                "html_instructions": "公車 開往忠孝北街",
+                                "distance": "1.7 公里",
+                                "transit_type": "BUS",
+                                "line_name": "彌陀夜市-忠孝北街",
+                                "departure_stop": "林業鐵路車庫園區",
+                                "arrival_stop": "耐斯廣場",
+                                "departure_time": "",
+                                "arrival_time": ""
+                            },
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "4 分鐘",
+                                "duration_value": 219,
+                                "html_instructions": "步行到600台灣嘉義市東區忠孝路600號",
+                                "distance": "0.2 公里"
+                            }
+                        ],
+                        "overview_polyline": "}ejnCi_d~ULPLSFSA[GQVKHOHILGZBDBHH@J?FLHH?^Kt@DN@FCBHFTxBm@x@UTEQk@m@wBPGQFOe@k@sBcAcDmBwGg@gBk@wAIQS@S?_EZiAFyGl@qBPcBFa@?kE^eBP_BNeGh@{Ir@oCR{@FaBd@_@L_@JGYLCLIGWnBg@h@Oz@GLGD[Ci@AWaAC"
+                    },
+                    {
+                        "origin_id": "ChIJo3zp5bKVbjQRFj-k43VK2Mg",
+                        "destination_id": "ChIJla4-TWqUbjQRdGEcQTFeDjY",
+                        "departure_time": "2024-11-24 07:30:00",
+                        "arrival_time": "2024-11-24 08:03:08",
+                        "total_duration": "33 分鐘",
+                        "total_duration_value": 1988,
+                        "total_distance": "4.1 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "8 分鐘",
+                                "duration_value": 456,
+                                "html_instructions": "步行到嘉義高商(嘉義公園)",
+                                "distance": "0.6 公里"
+                            },
+                            {
+                                "travel_mode": "TRANSIT",
+                                "duration": "5 分鐘",
+                                "duration_value": 328,
+                                "html_instructions": "公車 開往嘉義大學校區",
+                                "distance": "2.2 公里",
+                                "transit_type": "BUS",
+                                "line_name": "大富路-嘉義大學蘭潭校區",
+                                "departure_stop": "嘉義高商(嘉義公園)",
+                                "arrival_stop": "勞工育樂中心",
+                                "departure_time": "",
+                                "arrival_time": ""
+                            },
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "20 分鐘",
+                                "duration_value": 1204,
+                                "html_instructions": "步行到600台灣嘉義市東區興仁街嘉義市河濱運動公園",
+                                "distance": "1.4 公里"
+                            }
+                        ],
+                        "overview_polyline": "}tinCe{g~USJFL^d@Z^MvAIlA?f@LC?JDPLn@@FILCP@p@BN?FEDCJDXDTIVCRBJAFHBb@JNLRZP`@PpABTGN^p@VP@B?DTCDpAPAQ@EqAfIg@T@pIvCvK`EPHDDxId@xABKk@DUd@YjAs@zBiA|DuBrCyAbIiEvDqB~CgBrAo@hDkBlGeD\\QFPGQbDgBd@]j@s@L]l@OF@JPLb@ATXDPRNTRRdAl@VRXDNETYBKJSRKPATHrCw@dBc@fASbAMHdENj@JDNAJt@VjEl@bIt@nEV|@|@QRRRBJAl@S"
+                    },
+                    {
+                        "origin_id": "ChIJla4-TWqUbjQRdGEcQTFeDjY",
+                        "destination_id": "ChIJE-XK30mUbjQRqXI6yM1anwM",
+                        "departure_time": "2024-11-24 10:30:00",
+                        "arrival_time": "2024-11-24 11:14:44",
+                        "total_duration": "45 分鐘",
+                        "total_duration_value": 2684,
+                        "total_distance": "3.0 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "45 分鐘",
+                                "duration_value": 2684,
+                                "html_instructions": "步行到600台灣嘉義市東區民族路106號",
+                                "distance": "3.0 公里"
+                            }
+                        ],
+                        "overview_polyline": "uxdnCe}f~Us@TM?UIIM}@PW}@]qBSiAc@gF_@wGQyAYACIMi@I_Ec@DcAPk@LqBd@o@PoA^IEUCQDONIV[\\W?UM{@e@k@e@a@i@YE@MAOQe@KKo@PWj@a@d@[VkE~BmGdDiDjBsAn@oDpBeMzGcHnDoDnBaAd@}@j@QJETNt@DNDpAiF\\iE\\RlFF|A"
+                    },
+                    {
+                        "origin_id": "ChIJE-XK30mUbjQRqXI6yM1anwM",
+                        "destination_id": "ChIJb_-7NzWUbjQR1cPDwL-uOZQ",
+                        "departure_time": "2024-11-24 13:30:00",
+                        "arrival_time": "2024-11-24 13:45:07",
+                        "total_duration": "15 分鐘",
+                        "total_duration_value": 907,
+                        "total_distance": "1.1 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "15 分鐘",
+                                "duration_value": 908,
+                                "html_instructions": "步行到600台灣嘉義市東區民權路62號",
+                                "distance": "1.1 公里"
+                            }
+                        ],
+                        "overview_polyline": "eihnCycf~Ug@wMCeAw@@wGZaHf@cQnAaDVA]"
+                    },
+                    {
+                        "origin_id": "ChIJb_-7NzWUbjQR1cPDwL-uOZQ",
+                        "destination_id": "ChIJOb9FZtKVbjQR_BRx7_pZiVU",
+                        "departure_time": "2024-11-24 16:30:00",
+                        "arrival_time": "2024-11-24 16:41:44",
+                        "total_duration": "12 分鐘",
+                        "total_duration_value": 704,
+                        "total_distance": "1.4 公里",
+                        "steps": [
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "7 分鐘",
+                                "duration_value": 398,
+                                "html_instructions": "步行到行政執行署",
+                                "distance": "0.5 公里"
+                            },
+                            {
+                                "travel_mode": "TRANSIT",
+                                "duration": "3 分鐘",
+                                "duration_value": 177,
+                                "html_instructions": "公車 開往大富路",
+                                "distance": "0.9 公里",
+                                "transit_type": "BUS",
+                                "line_name": "大富路-嘉義大學蘭潭校區",
+                                "departure_stop": "行政執行署",
+                                "arrival_stop": "中央噴水站(吳鳳幼稚園)",
+                                "departure_time": "",
+                                "arrival_time": ""
+                            },
+                            {
+                                "travel_mode": "WALKING",
+                                "duration": "2 分鐘",
+                                "duration_value": 100,
+                                "html_instructions": "步行到600台灣嘉義市東區光華路195號",
+                                "distance": "0.1 公里"
+                            }
+                        ],
+                        "overview_polyline": "kuinCgpf~U@\\`DWbCSXnFDlARlBDf@FjAM@LAPnC\\~GRvCHnATxDPjDFTr@~B`DdJf@`BOFNGb@pADJ@ADAN@b@{@"
+                    }
+                ]
+            },
+            "recommended_places": [
+                {
+                    "place_id": "ChIJLUMRUgCVbjQR5NRurJDi8B0",
+                    "place_name": "饗泰多 Siam More 泰式風格餐廳 嘉義耐斯店",
+                    "lat": 23.4965,
+                    "lng": 120.453,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "16:00:00",
+                            "17:00:00",
+                            "21:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "16:00:00",
+                            "17:00:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 5.0,
+                    "user_rating_totals": 2236
+                },
+                {
+                    "place_id": "ChIJVyOK8euVbjQRo7UKct7s_U8",
+                    "place_name": "葉子庭園餐廳",
+                    "lat": 23.4766,
+                    "lng": 120.477,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 5.0,
+                    "user_rating_totals": 671
+                },
+                {
+                    "place_id": "ChIJcVGoFsCVbjQRzE1dpskps9w",
+                    "place_name": "動感酒吧 Mega Lounge Bar",
+                    "lat": 23.4782,
+                    "lng": 120.442,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "17:30:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "17:30:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 5.0,
+                    "user_rating_totals": 592
+                },
+                {
+                    "place_id": "ChIJdwdtkfqVbjQRdIwnHgEwpno",
+                    "place_name": "COP bar-Cocktails Of Pioneers",
+                    "lat": 23.4736,
+                    "lng": 120.444,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "19:30:00",
+                            "02:00:00"
+                        ],
+                        "6": [
+                            "19:30:00",
+                            "02:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 5.0,
+                    "user_rating_totals": 580
+                },
+                {
+                    "place_id": "ChIJlfBVwVSVbjQREI9d812gIuc",
+                    "place_name": "森川丼丼嘉義店",
+                    "lat": 23.4737,
+                    "lng": 120.462,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "00:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "00:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.9,
+                    "user_rating_totals": 4278
+                },
+                {
+                    "place_id": "ChIJOUUmKBGVbjQRiG6rNs-pLGM",
+                    "place_name": "SSR Lounge Bar",
+                    "lat": 23.4661,
+                    "lng": 120.468,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "6": [
+                            "21:00:00",
+                            "03:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.9,
+                    "user_rating_totals": 767
+                },
+                {
+                    "place_id": "ChIJdURUwR6VbjQR-coel7l8l3I",
+                    "place_name": "海鷗廚房HEALTH KITCHEN地中海健康食坊-最後點餐19:00（建議粉專預訂）",
+                    "lat": 23.4836,
+                    "lng": 120.463,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:30:00",
+                            "16:30:00",
+                            "19:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:30:00",
+                            "16:30:00",
+                            "19:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.9,
+                    "user_rating_totals": 736
+                },
+                {
+                    "place_id": "ChIJxXP-muyVbjQR8rHupNYVkg0",
+                    "place_name": "燒瓶子。大肆の鍋 嘉義店(最後進場時間凌晨12:30)",
+                    "lat": 23.4828,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "02:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "02:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.8,
+                    "user_rating_totals": 8784
+                },
+                {
+                    "place_id": "ChIJTToy8auVbjQRK25ti89p638",
+                    "place_name": "女巫貓葵／女巫湯麵／哥吉拉鱷魚腳拉麵／滷肉飯／鱷魚滷肉飯／外帶巫婆什錦麵75元／外帶巫婆麻醬麵95元／外帶重慶小麵95／外帶打拋豬肉飯／臭豆腐15元／有熊貓外送／鱷魚冰淇淋／古曼少女沙克飯／涼麵／嘉義美食／雞肉飯，午餐，晚餐，宵夜，火鍋，牛肉麵調酒",
+                    "lat": 23.4985,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "23:30:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "23:50:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.8,
+                    "user_rating_totals": 6944
+                },
+                {
+                    "place_id": "ChIJW1giHjKUbjQRpzoZNuv1Q7c",
+                    "place_name": "品田牧場 嘉義國華店",
+                    "lat": 23.4804,
+                    "lng": 120.448,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "15:00:00",
+                            "17:00:00",
+                            "21:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "15:00:00",
+                            "17:00:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.8,
+                    "user_rating_totals": 5073
+                },
+                {
+                    "place_id": "ChIJM-_cYR-VbjQRj57U8wNRfqA",
+                    "place_name": "洋城義大利餐廳-嘉義大潤發店",
+                    "lat": 23.4782,
+                    "lng": 120.438,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.8,
+                    "user_rating_totals": 4116
+                },
+                {
+                    "place_id": "ChIJHUPzE7qVbjQRYtI7O5hu5Dw",
+                    "place_name": "傻師傅湯包-嘉義民族店",
+                    "lat": 23.476,
+                    "lng": 120.448,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "02:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "02:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.8,
+                    "user_rating_totals": 1843
+                },
+                {
+                    "place_id": "ChIJn6CGMs-VbjQRpO330OHCrAA",
+                    "place_name": "N23.5° Lounge",
+                    "lat": 23.4937,
+                    "lng": 120.453,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "18:00:00",
+                            "02:00:00"
+                        ],
+                        "6": [
+                            "18:00:00",
+                            "02:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.8,
+                    "user_rating_totals": 799
+                },
+                {
+                    "place_id": "ChIJFd2DeKSVbjQR09ROcUp4wU0",
+                    "place_name": "The JiaJiu Place 呷酒餐酒館",
+                    "lat": 23.4731,
+                    "lng": 120.439,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "17:30:00",
+                            "00:00:00"
+                        ],
+                        "6": [
+                            "17:30:00",
+                            "00:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.8,
+                    "user_rating_totals": 723
+                },
+                {
+                    "place_id": "ChIJa9ESNhyVbjQRnTpzlYh3U1E",
+                    "place_name": "初·仨食(無訂位）",
+                    "lat": 23.4769,
+                    "lng": 120.445,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "15:30:00",
+                            "17:30:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "15:30:00",
+                            "17:30:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.8,
+                    "user_rating_totals": 658
+                },
+                {
+                    "place_id": "ChIJkQHP5OiVbjQRWUni-bg-nts",
+                    "place_name": "來呷飯 川食堂(嘉義中山店)",
+                    "lat": 23.4824,
+                    "lng": 120.46,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:30:00",
+                            "21:30:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:30:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.7,
+                    "user_rating_totals": 1477
+                },
+                {
+                    "place_id": "ChIJUw4NLcuVbjQROdt_RJmeo-k",
+                    "place_name": "國王的菜 King's Flavor 印度餐廳",
+                    "lat": 23.4834,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.7,
+                    "user_rating_totals": 1284
+                },
+                {
+                    "place_id": "ChIJYVMhFnGVbjQRcYI9jjwFvcw",
+                    "place_name": "飯丸屋-嘉義店",
+                    "lat": 23.48,
+                    "lng": 120.451,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "19:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "19:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.7,
+                    "user_rating_totals": 1031
+                },
+                {
+                    "place_id": "ChIJwzIBoTeUbjQRoYSlGOq3dqE",
+                    "place_name": "阿忠師手切滷肉飯.健康古早味料理老店",
+                    "lat": 23.4751,
+                    "lng": 120.456,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "22:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "22:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.7,
+                    "user_rating_totals": 713
+                },
+                {
+                    "place_id": "ChIJ-wqvJmOVbjQR0m-I1xmy1YA",
+                    "place_name": "阿布丼飯壽司火鍋",
+                    "lat": 23.4777,
+                    "lng": 120.473,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.7,
+                    "user_rating_totals": 643
+                },
+                {
+                    "place_id": "ChIJ2Y_wHNmVbjQRdzvxuUqYMlM",
+                    "place_name": "愛木村地方文化館(休閒檜木觀光工廠)-親子互動體驗、特色DIY課程、一日半日遊推薦",
+                    "lat": 23.502,
+                    "lng": 120.438,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:00:00",
+                            "17:30:00"
+                        ],
+                        "6": [
+                            "09:00:00",
+                            "17:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.6,
+                    "user_rating_totals": 10567
+                },
+                {
+                    "place_id": "ChIJSXhX2NKVbjQRMigX_yP3u50",
+                    "place_name": "舊時光新鮮事-老屋咖哩專賣|嘉義美食|午餐推薦|晚餐推薦|寵物友善|火車站美食|文化路美食|企業包場|嘉義包場",
+                    "lat": 23.4765,
+                    "lng": 120.442,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.6,
+                    "user_rating_totals": 5065
+                },
+                {
+                    "place_id": "ChIJj5FPfi-UbjQR5SME57SkJE4",
+                    "place_name": "- 巷子裡的小餐館 -",
+                    "lat": 23.4763,
+                    "lng": 120.445,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:30:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:30:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.6,
+                    "user_rating_totals": 1579
+                },
+                {
+                    "place_id": "ChIJLRzYyE2UbjQROS5fjkDBhLU",
+                    "place_name": "正統火雞肉飯",
+                    "lat": 23.4771,
+                    "lng": 120.467,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "08:00:00",
+                            "14:00:00",
+                            "16:00:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "08:00:00",
+                            "14:00:00",
+                            "16:00:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.6,
+                    "user_rating_totals": 1420
+                },
+                {
+                    "place_id": "ChIJ3ft6YSWUbjQRu6sLS7k-9-k",
+                    "place_name": "洪牛土產牛肉湯",
+                    "lat": 23.4756,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.6,
+                    "user_rating_totals": 586
+                },
+                {
+                    "place_id": "ChIJjXhfHf2VbjQRPG2upn65Hv4",
+                    "place_name": "樂閣",
+                    "lat": 23.4834,
+                    "lng": 120.451,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.6,
+                    "user_rating_totals": 552
+                },
+                {
+                    "place_id": "ChIJu6PPNVuVbjQR-VylEAqmIz8",
+                    "place_name": "花淺蔥 Brunch Osteria",
+                    "lat": 23.4829,
+                    "lng": 120.447,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.6,
+                    "user_rating_totals": 549
+                },
+                {
+                    "place_id": "ChIJP5xJE8-VbjQRJLukAcEjdIM",
+                    "place_name": "三采田美味廚坊/嘉義美食 嘉義餐廳 嘉義小吃 嘉義火鍋 東區美食 嘉義火車站美食",
+                    "lat": 23.4952,
+                    "lng": 120.451,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.6,
+                    "user_rating_totals": 522
+                },
+                {
+                    "place_id": "ChIJJU4OmS2UbjQRgjVPo5_9ARw",
+                    "place_name": "臺灣花磚博物館",
+                    "lat": 23.4834,
+                    "lng": 120.446,
+                    "types": [
+                        "tourist_attraction",
+                        "museum"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "17:30:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "17:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.5,
+                    "user_rating_totals": 3977
+                },
+                {
+                    "place_id": "ChIJTTGAhTKUbjQRmsyaF-aVXg0",
+                    "place_name": "陶板屋 嘉義林森西店",
+                    "lat": 23.4838,
+                    "lng": 120.448,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.5,
+                    "user_rating_totals": 3714
+                },
+                {
+                    "place_id": "ChIJPQEF3g2VbjQRKPWWxopM2JI",
+                    "place_name": "廢溫室Greenhouse café",
+                    "lat": 23.4891,
+                    "lng": 120.455,
+                    "types": [
+                        "restaurant",
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.5,
+                    "user_rating_totals": 3170
+                },
+                {
+                    "place_id": "ChIJS4LqBdGVbjQRCiorgYJ1RnE",
+                    "place_name": "Second Floor 貳樓嘉義秀泰店",
+                    "lat": 23.4856,
+                    "lng": 120.448,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.5,
+                    "user_rating_totals": 2398
+                },
+                {
+                    "place_id": "ChIJlxiNfp6WbjQRzR3U7j3IN34",
+                    "place_name": "東方葉全牛料理店",
+                    "lat": 23.47,
+                    "lng": 120.443,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.5,
+                    "user_rating_totals": 1652
+                },
+                {
+                    "place_id": "ChIJxZWG-deVbjQRTqEYD83RnNc",
+                    "place_name": "肉食主義 嘉義店",
+                    "lat": 23.4821,
+                    "lng": 120.457,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "22:30:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "22:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.5,
+                    "user_rating_totals": 1605
+                },
+                {
+                    "place_id": "ChIJ6S-hkEmUbjQRMIgBXeWdMoI",
+                    "place_name": "福芳酒食FUFUN",
+                    "lat": 23.4769,
+                    "lng": 120.461,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "16:30:00",
+                            "01:00:00"
+                        ],
+                        "6": [
+                            "16:30:00",
+                            "01:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.5,
+                    "user_rating_totals": 1051
+                },
+                {
+                    "place_id": "ChIJfffYr2SVbjQRD3sgPSzpMXs",
+                    "place_name": "檜町火雞肉飯",
+                    "lat": 23.4762,
+                    "lng": 120.453,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "15:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "15:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.5,
+                    "user_rating_totals": 954
+                },
+                {
+                    "place_id": "ChIJbxzIhrCVbjQRAswu2_k0jLA",
+                    "place_name": "弄來，小餐桌",
+                    "lat": 23.4752,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.5,
+                    "user_rating_totals": 905
+                },
+                {
+                    "place_id": "ChIJM9X_Y8qVbjQRVfuUYgThm64",
+                    "place_name": "古早火雞肉飯",
+                    "lat": 23.4869,
+                    "lng": 120.458,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.5,
+                    "user_rating_totals": 844
+                },
+                {
+                    "place_id": "ChIJScvQjMuVbjQRZ4h99P4DfmI",
+                    "place_name": "嘉義公園火雞肉飯（公休日請關注FB）",
+                    "lat": 23.4888,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "06:00:00",
+                            "13:30:00"
+                        ],
+                        "6": [
+                            "06:00:00",
+                            "13:30:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.5,
+                    "user_rating_totals": 798
+                },
+                {
+                    "place_id": "ChIJMdWPeyWUbjQRwxXr-rnCXME",
+                    "place_name": "諸羅山社涼麵店",
+                    "lat": 23.4758,
+                    "lng": 120.445,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "19:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.5,
+                    "user_rating_totals": 785
+                },
+                {
+                    "place_id": "ChIJV1IXn8iVbjQRSmtCe3JI_d0",
+                    "place_name": "火雞達人",
+                    "lat": 23.495,
+                    "lng": 120.455,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "15:00:00",
+                            "16:00:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "15:00:00",
+                            "16:00:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.5,
+                    "user_rating_totals": 563
+                },
+                {
+                    "place_id": "ChIJla-IvPSVbjQRj2klkrBbcng",
+                    "place_name": "小莊火雞肉飯",
+                    "lat": 23.4771,
+                    "lng": 120.455,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "14:00:00",
+                            "16:30:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "14:00:00",
+                            "16:30:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.5,
+                    "user_rating_totals": 520
+                },
+                {
+                    "place_id": "ChIJw58UX7OVbjQRj_JrF6q5EdA",
+                    "place_name": "嘉義公園",
+                    "lat": 23.4833,
+                    "lng": 120.465,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 14674
+                },
+                {
+                    "place_id": "ChIJM6USiTOUbjQR0HVygYPzeyI",
+                    "place_name": "喬義思choice窯烤手作廚房嘉義莊園店",
+                    "lat": 23.4815,
+                    "lng": 120.453,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.4,
+                    "user_rating_totals": 3149
+                },
+                {
+                    "place_id": "ChIJIXui7MyVbjQRSJfxMod_QfM",
+                    "place_name": "嘉義市立博物館",
+                    "lat": 23.4872,
+                    "lng": 120.452,
+                    "types": [
+                        "tourist_attraction",
+                        "museum"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:00:00",
+                            "17:00:00"
+                        ],
+                        "6": [
+                            "09:00:00",
+                            "17:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 2858
+                },
+                {
+                    "place_id": "ChIJUSYSKzCUbjQRzkLOIqOYmqM",
+                    "place_name": "手在比薩",
+                    "lat": 23.4801,
+                    "lng": 120.447,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.4,
+                    "user_rating_totals": 1641
+                },
+                {
+                    "place_id": "ChIJ7bD7iUqUbjQRBRQtjgG1nps",
+                    "place_name": "可口火雞肉飯",
+                    "lat": 23.4808,
+                    "lng": 120.46,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 1520
+                },
+                {
+                    "place_id": "ChIJaQ55pTKUbjQRLuvZA8klxos",
+                    "place_name": "MO-MO-PARADISE 嘉義秀泰牧場",
+                    "lat": 23.4853,
+                    "lng": 120.448,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.4,
+                    "user_rating_totals": 1448
+                },
+                {
+                    "place_id": "ChIJvatRakqUbjQRG-F2GCiyRu8",
+                    "place_name": "心宜草堂",
+                    "lat": 23.4797,
+                    "lng": 120.46,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.4,
+                    "user_rating_totals": 965
+                },
+                {
+                    "place_id": "ChIJ3YSI3GaXbjQRvy5G_OaxoXE",
+                    "place_name": "原鄉味 海鮮餐廳",
+                    "lat": 23.4718,
+                    "lng": 120.436,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "23:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "23:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.4,
+                    "user_rating_totals": 741
+                },
+                {
+                    "place_id": "ChIJhXQy22yVbjQRHjPN5iEGbB0",
+                    "place_name": "文化火雞肉飯",
+                    "lat": 23.476,
+                    "lng": 120.452,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "13:30:00",
+                            "16:30:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "13:30:00",
+                            "16:30:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 712
+                },
+                {
+                    "place_id": "ChIJUVjWly2UbjQRtdPUiMHiuVQ",
+                    "place_name": "阿進土產牛肉湯",
+                    "lat": 23.4829,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "6": [
+                            "17:30:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.4,
+                    "user_rating_totals": 693
+                },
+                {
+                    "place_id": "ChIJBRIYTJuWbjQRh6AmSlCtG3c",
+                    "place_name": "王記川味牛肉麵",
+                    "lat": 23.479,
+                    "lng": 120.429,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 663
+                },
+                {
+                    "place_id": "ChIJFbnJ9jeUbjQROwMRlNMZTgI",
+                    "place_name": "嘉義諸羅山涼麵",
+                    "lat": 23.4736,
+                    "lng": 120.458,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "07:30:00",
+                            "13:30:00"
+                        ],
+                        "6": [
+                            "07:30:00",
+                            "13:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.4,
+                    "user_rating_totals": 563
+                },
+                {
+                    "place_id": "ChIJoz_z-SeUbjQREoN2r52d5pg",
+                    "place_name": "閣再來火雞肉飯",
+                    "lat": 23.4813,
+                    "lng": 120.44,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.4,
+                    "user_rating_totals": 544
+                },
+                {
+                    "place_id": "ChIJOb09b8uVbjQRigoLMNW9rpE",
+                    "place_name": "檜意森活村",
+                    "lat": 23.4856,
+                    "lng": 120.455,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "18:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "18:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 37026
+                },
+                {
+                    "place_id": "ChIJS_5pnTCUbjQRY89JVKiWIRM",
+                    "place_name": "文化公園",
+                    "lat": 23.4751,
+                    "lng": 120.451,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 8942
+                },
+                {
+                    "place_id": "ChIJZQXTocqVbjQRC5IKyMH0RdY",
+                    "place_name": "國定古蹟-嘉義舊監獄",
+                    "lat": 23.4862,
+                    "lng": 120.459,
+                    "types": [
+                        "museum",
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:30:00",
+                            "12:00:00",
+                            "13:30:00",
+                            "16:00:00"
+                        ],
+                        "6": [
+                            "09:30:00",
+                            "12:00:00",
+                            "13:30:00",
+                            "16:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 5559
+                },
+                {
+                    "place_id": "ChIJ9Vj5dzGUbjQRhikgtDJskbU",
+                    "place_name": "黃記涼麵涼圓",
+                    "lat": 23.4746,
+                    "lng": 120.452,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:00:00",
+                            "18:00:00"
+                        ],
+                        "6": [
+                            "09:00:00",
+                            "18:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 3817
+                },
+                {
+                    "place_id": "ChIJzwRM7DCUbjQRXTNBFy0TaUY",
+                    "place_name": "阿岸米糕 元創店",
+                    "lat": 23.4743,
+                    "lng": 120.45,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "16:00:00",
+                            "00:00:00"
+                        ],
+                        "6": [
+                            "16:00:00",
+                            "00:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.3,
+                    "user_rating_totals": 3246
+                },
+                {
+                    "place_id": "ChIJcfHcoSCUbjQR0Ldeq9Ubkmg",
+                    "place_name": "老張麵店",
+                    "lat": 23.4712,
+                    "lng": 120.436,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.3,
+                    "user_rating_totals": 2656
+                },
+                {
+                    "place_id": "ChIJ-YH3UgCVbjQRX0I675sddd4",
+                    "place_name": "桃花源餐廳嘉義分店",
+                    "lat": 23.4805,
+                    "lng": 120.484,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.3,
+                    "user_rating_totals": 2048
+                },
+                {
+                    "place_id": "ChIJzbLMp0yUbjQRi8vyQOW4CEc",
+                    "place_name": "KANO園區",
+                    "lat": 23.4816,
+                    "lng": 120.465,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 1763
+                },
+                {
+                    "place_id": "ChIJc6DcNVKUbjQRJ9GQ0SbY7uw",
+                    "place_name": "綠食光 1929",
+                    "lat": 23.4804,
+                    "lng": 120.45,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:10:00",
+                            "15:20:00",
+                            "17:10:00",
+                            "21:20:00"
+                        ],
+                        "6": [
+                            "11:10:00",
+                            "15:20:00",
+                            "17:10:00",
+                            "21:20:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.3,
+                    "user_rating_totals": 1726
+                },
+                {
+                    "place_id": "ChIJQ99uUi6UbjQRX-ngPKaDlSM",
+                    "place_name": "嘉義車頭火雞肉飯（永香珍食堂）",
+                    "lat": 23.4784,
+                    "lng": 120.442,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.3,
+                    "user_rating_totals": 1260
+                },
+                {
+                    "place_id": "ChIJA0p4hZ2WbjQRgXT7MYz9r4o",
+                    "place_name": "番仔溝公園",
+                    "lat": 23.4747,
+                    "lng": 120.435,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 1247
+                },
+                {
+                    "place_id": "ChIJN33MODaUbjQREwTMTv7KPyE",
+                    "place_name": "嘉義-南門涼肉圓",
+                    "lat": 23.4769,
+                    "lng": 120.457,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "12:20:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "12:20:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 1190
+                },
+                {
+                    "place_id": "ChIJvSxjOiSUbjQRME8yUHkPexY",
+                    "place_name": "金馬肉粥",
+                    "lat": 23.4732,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "17:00:00",
+                            "01:00:00"
+                        ],
+                        "6": [
+                            "17:00:00",
+                            "01:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.3,
+                    "user_rating_totals": 1152
+                },
+                {
+                    "place_id": "ChIJywS0wiSUbjQREyBzhS3Bupc",
+                    "place_name": "余媽媽老麵店（創始店）",
+                    "lat": 23.4725,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "6": [
+                            "11:00:00",
+                            "13:45:00",
+                            "16:30:00",
+                            "19:45:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.3,
+                    "user_rating_totals": 1014
+                },
+                {
+                    "place_id": "ChIJhdjOFi6UbjQRru0EhJEyG40",
+                    "place_name": "老洋房1931",
+                    "lat": 23.48,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:10:00",
+                            "15:00:00",
+                            "17:10:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:10:00",
+                            "15:00:00",
+                            "17:10:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.3,
+                    "user_rating_totals": 941
+                },
+                {
+                    "place_id": "ChIJdSffVICWbjQRsSFTx9iVHAc",
+                    "place_name": "川流不息饌堂",
+                    "lat": 23.4868,
+                    "lng": 120.433,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.3,
+                    "user_rating_totals": 719
+                },
+                {
+                    "place_id": "ChIJv3lmidKVbjQRprQdtIzIDwc",
+                    "place_name": "嘉義肉圓",
+                    "lat": 23.4889,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "6": [
+                            "12:00:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.3,
+                    "user_rating_totals": 566
+                },
+                {
+                    "place_id": "ChIJsT1s2U6UbjQRpUYOhTvzZSU",
+                    "place_name": "歐琳達鄉村料理坊",
+                    "lat": 23.4744,
+                    "lng": 120.465,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.3,
+                    "user_rating_totals": 523
+                },
+                {
+                    "place_id": "ChIJ6ywLJDaUbjQRVGXMs5vSlAE",
+                    "place_name": "民主火雞肉飯",
+                    "lat": 23.4766,
+                    "lng": 120.457,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "20:40:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "20:40:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 10487
+                },
+                {
+                    "place_id": "ChIJxQNAhDKUbjQR0rls6oi0wfA",
+                    "place_name": "阿里山森林鐵路車庫園區",
+                    "lat": 23.4863,
+                    "lng": 120.451,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "08:00:00",
+                            "18:00:00"
+                        ],
+                        "6": [
+                            "08:00:00",
+                            "18:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 8010
+                },
+                {
+                    "place_id": "ChIJz4Ha1jaUbjQR79-oqLvbkkY",
+                    "place_name": "阿樓師火雞肉飯",
+                    "lat": 23.4769,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "16:00:00",
+                            "00:00:00"
+                        ],
+                        "6": [
+                            "16:00:00",
+                            "00:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 5581
+                },
+                {
+                    "place_id": "ChIJFaNOwTeUbjQRKXSeImLy2M4",
+                    "place_name": "和平火雞肉飯",
+                    "lat": 23.4749,
+                    "lng": 120.458,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "07:30:00",
+                            "17:00:00"
+                        ],
+                        "6": [
+                            "07:30:00",
+                            "17:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.2,
+                    "user_rating_totals": 3978
+                },
+                {
+                    "place_id": "ChIJy3BFYViUbjQRi9ogODhF5v0",
+                    "place_name": "蘭潭月影潭心",
+                    "lat": 23.4659,
+                    "lng": 120.481,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 3794
+                },
+                {
+                    "place_id": "ChIJjQ90PiSUbjQRjCMx3C3Pjx0",
+                    "place_name": "阿溪雞肉飯",
+                    "lat": 23.4725,
+                    "lng": 120.443,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "06:00:00",
+                            "13:30:00"
+                        ],
+                        "6": [
+                            "06:00:00",
+                            "13:30:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.2,
+                    "user_rating_totals": 3613
+                },
+                {
+                    "place_id": "ChIJe9j3GM2VbjQRew3P9O3PLDM",
+                    "place_name": "阿里山林業村",
+                    "lat": 23.4873,
+                    "lng": 120.45,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:00:00",
+                            "17:00:00"
+                        ],
+                        "6": [
+                            "09:00:00",
+                            "17:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 3232
+                },
+                {
+                    "place_id": "ChIJ6ywLJDaUbjQRdyd1qNEqENY",
+                    "place_name": "簡單火雞肉飯",
+                    "lat": 23.4772,
+                    "lng": 120.468,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "08:30:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "08:30:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 3116
+                },
+                {
+                    "place_id": "ChIJw_V3nlOUbjQRtIan-bC8xSo",
+                    "place_name": "東園軒園林餐廳",
+                    "lat": 23.4775,
+                    "lng": 120.475,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.2,
+                    "user_rating_totals": 2522
+                },
+                {
+                    "place_id": "ChIJHfNUFDSUbjQRBVTlfRGqbL8",
+                    "place_name": "北回水晶餃",
+                    "lat": 23.4805,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "6": [
+                            "09:00:00",
+                            "18:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.2,
+                    "user_rating_totals": 1778
+                },
+                {
+                    "place_id": "ChIJUdIf7x2UbjQRcRFTZs31CNQ",
+                    "place_name": "阿傑台式料理X三八鷄X烤蚵吃到飽",
+                    "lat": 23.4608,
+                    "lng": 120.437,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "01:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "01:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.2,
+                    "user_rating_totals": 1307
+                },
+                {
+                    "place_id": "ChIJj6USkZ-WbjQRILIOpi8SaxI",
+                    "place_name": "大眾川味麵食館",
+                    "lat": 23.4685,
+                    "lng": 120.434,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 1222
+                },
+                {
+                    "place_id": "ChIJBcAeFYKWbjQR49m4d7xtccc",
+                    "place_name": "松築創作和食料理",
+                    "lat": 23.4823,
+                    "lng": 120.435,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "14:00:00",
+                            "17:30:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "14:00:00",
+                            "17:30:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 3,
+                    "rating": 4.2,
+                    "user_rating_totals": 964
+                },
+                {
+                    "place_id": "ChIJMcb4mMaVbjQRnesgucbD3xc",
+                    "place_name": "好正點港式飲茶 （嘉義新光店）",
+                    "lat": 23.4737,
+                    "lng": 120.441,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "21:30:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.2,
+                    "user_rating_totals": 762
+                },
+                {
+                    "place_id": "ChIJL8TbBoKWbjQRhS0g9M1gjVk",
+                    "place_name": "桃城古味餐廳",
+                    "lat": 23.483,
+                    "lng": 120.436,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.2,
+                    "user_rating_totals": 598
+                },
+                {
+                    "place_id": "ChIJ5wJfhyWUbjQRG_DhFBgvW7g",
+                    "place_name": "阿宏師火雞肉飯",
+                    "lat": 23.4786,
+                    "lng": 120.452,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.1,
+                    "user_rating_totals": 7688
+                },
+                {
+                    "place_id": "ChIJHx27NU2UbjQRMYjtb-KSE3M",
+                    "place_name": "嘉義公園射日塔",
+                    "lat": 23.4813,
+                    "lng": 120.469,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:00:00",
+                            "18:00:00"
+                        ],
+                        "6": [
+                            "09:00:00",
+                            "19:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.1,
+                    "user_rating_totals": 4267
+                },
+                {
+                    "place_id": "ChIJ_2G60lCUbjQRKi0GXA8N2Bc",
+                    "place_name": "蘭潭風景特定區",
+                    "lat": 23.4664,
+                    "lng": 120.479,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.1,
+                    "user_rating_totals": 2729
+                },
+                {
+                    "place_id": "ChIJfYERHYWWbjQRY_EVMAluzkg",
+                    "place_name": "阿里山火雞肉飯",
+                    "lat": 23.4817,
+                    "lng": 120.427,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.1,
+                    "user_rating_totals": 2080
+                },
+                {
+                    "place_id": "ChIJqTbANTKUbjQR15D7Up1Xjus",
+                    "place_name": "嘉義市中央廣場",
+                    "lat": 23.4815,
+                    "lng": 120.45,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.1,
+                    "user_rating_totals": 1975
+                },
+                {
+                    "place_id": "ChIJ9e2QVi-UbjQROK8yjN0H74I",
+                    "place_name": "錢櫃 嘉義仁愛店",
+                    "lat": 23.4771,
+                    "lng": 120.442,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "06:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "06:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.1,
+                    "user_rating_totals": 1662
+                },
+                {
+                    "place_id": "ChIJ47GdVICWbjQRNCwHnhPQtn0",
+                    "place_name": "歌神",
+                    "lat": 23.4867,
+                    "lng": 120.433,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.1,
+                    "user_rating_totals": 990
+                },
+                {
+                    "place_id": "ChIJuTt3lSqUbjQRwBI5b0kXFzA",
+                    "place_name": "留園精緻料理",
+                    "lat": 23.4867,
+                    "lng": 120.437,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "17:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.1,
+                    "user_rating_totals": 948
+                },
+                {
+                    "place_id": "ChIJsSRFyTaUbjQRGF6Ul8848Uk",
+                    "place_name": "金門魯肉飯",
+                    "lat": 23.4777,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "16:00:00",
+                            "23:00:00"
+                        ],
+                        "6": [
+                            "16:00:00",
+                            "23:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.1,
+                    "user_rating_totals": 781
+                },
+                {
+                    "place_id": "ChIJIVB6kE2UbjQR2XhojxtCeaA",
+                    "place_name": "玫瑰園庭園咖啡簡餐",
+                    "lat": 23.478,
+                    "lng": 120.47,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:30:00",
+                            "02:00:00"
+                        ],
+                        "6": [
+                            "09:30:00",
+                            "02:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.1,
+                    "user_rating_totals": 668
+                },
+                {
+                    "place_id": "ChIJ_YBOM5yWbjQRF9uHYL0CP84",
+                    "place_name": "深山土雞城",
+                    "lat": 23.4743,
+                    "lng": 120.433,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:00:00",
+                            "16:00:00",
+                            "00:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:00:00",
+                            "16:00:00",
+                            "00:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.1,
+                    "user_rating_totals": 636
+                },
+                {
+                    "place_id": "ChIJRaNPasuVbjQRdLP2SLYX0dg",
+                    "place_name": "檜意森活村 奇木風景館",
+                    "lat": 23.4861,
+                    "lng": 120.454,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "18:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "18:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.1,
+                    "user_rating_totals": 566
+                },
+                {
+                    "place_id": "ChIJVeNqv7SVbjQRGMr_KVvM0xk",
+                    "place_name": "曹家牛肉麵－啟明店",
+                    "lat": 23.4838,
+                    "lng": 120.463,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "14:30:00",
+                            "16:30:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "14:30:00",
+                            "16:30:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.1,
+                    "user_rating_totals": 526
+                },
+                {
+                    "place_id": "ChIJcwBttOiVbjQRsmw3TXRHz08",
+                    "place_name": "月桃故事館",
+                    "lat": 23.5126,
+                    "lng": 120.448,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "08:30:00",
+                            "17:00:00"
+                        ],
+                        "6": [
+                            "08:30:00",
+                            "17:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.0,
+                    "user_rating_totals": 4050
+                },
+                {
+                    "place_id": "ChIJ6ywLJDaUbjQRiAKRkjtJzrY",
+                    "place_name": "大同火雞肉飯",
+                    "lat": 23.4767,
+                    "lng": 120.459,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:30:00",
+                            "16:00:00"
+                        ],
+                        "6": [
+                            "09:30:00",
+                            "16:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.0,
+                    "user_rating_totals": 2924
+                },
+                {
+                    "place_id": "ChIJ4X2ehEmUbjQRmSw-iIi32r8",
+                    "place_name": "東門雞肉飯 和平店",
+                    "lat": 23.479,
+                    "lng": 120.457,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "05:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "05:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.0,
+                    "user_rating_totals": 2897
+                },
+                {
+                    "place_id": "ChIJATw76ZuWbjQReGsrtEJNMf0",
+                    "place_name": "滿福樓婚宴廣場",
+                    "lat": 23.4756,
+                    "lng": 120.429,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:30:00",
+                            "21:30:00"
+                        ],
+                        "6": [
+                            "09:30:00",
+                            "21:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.0,
+                    "user_rating_totals": 2690
+                },
+                {
+                    "place_id": "ChIJbwz2OJCUbjQRdLBWdKx27bo",
+                    "place_name": "頂六江家火雞肉飯",
+                    "lat": 23.4456,
+                    "lng": 120.495,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "08:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "08:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.0,
+                    "user_rating_totals": 2485
+                },
+                {
+                    "place_id": "ChIJ6ywLJDaUbjQRQRKBmkpUR1s",
+                    "place_name": "嘉義人火雞肉飯",
+                    "lat": 23.4743,
+                    "lng": 120.457,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "05:30:00",
+                            "14:00:00"
+                        ],
+                        "6": [
+                            "05:30:00",
+                            "14:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.0,
+                    "user_rating_totals": 2403
+                },
+                {
+                    "place_id": "ChIJVx7z_i6UbjQRjVQe_t1ucEo",
+                    "place_name": "慶昇小館",
+                    "lat": 23.4789,
+                    "lng": 120.444,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.0,
+                    "user_rating_totals": 2003
+                },
+                {
+                    "place_id": "ChIJCUfQNCGUbjQRUD08sdKxiCI",
+                    "place_name": "東門雞肉飯",
+                    "lat": 23.4715,
+                    "lng": 120.44,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.0,
+                    "user_rating_totals": 1757
+                },
+                {
+                    "place_id": "ChIJ8-h_oMuVbjQRgaL-jr9xXAA",
+                    "place_name": "沉睡森林主題公園",
+                    "lat": 23.4873,
+                    "lng": 120.455,
+                    "types": [
+                        "tourist_attraction"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "00:00:00",
+                            "23:59:00"
+                        ],
+                        "6": [
+                            "00:00:00",
+                            "23:59:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.0,
+                    "user_rating_totals": 1407
+                },
+                {
+                    "place_id": "ChIJeT3k-SWUbjQRCukDf_togDE",
+                    "place_name": "左阜右邑 嘉義興達店",
+                    "lat": 23.4857,
+                    "lng": 120.435,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "22:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "22:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.0,
+                    "user_rating_totals": 1167
+                },
+                {
+                    "place_id": "ChIJPdIwkYGWbjQRhMIS_E4kYu4",
+                    "place_name": "合家歡KTV",
+                    "lat": 23.4852,
+                    "lng": 120.434,
+                    "types": [
+                        "bar"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "12:00:00",
+                            "07:00:00"
+                        ],
+                        "6": [
+                            "12:00:00",
+                            "07:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 4.0,
+                    "user_rating_totals": 686
+                },
+                {
+                    "place_id": "ChIJK_2CGoW9bjQRFjUL5FFbYkE",
+                    "place_name": "德洋壽司",
+                    "lat": 23.4808,
+                    "lng": 120.45,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "01:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "01:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 4.0,
+                    "user_rating_totals": 604
+                },
+                {
+                    "place_id": "ChIJ6en-7SOUbjQRz4ZLxQH3A5s",
+                    "place_name": "大同雞肉飯",
+                    "lat": 23.4705,
+                    "lng": 120.443,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "6": [
+                            "06:00:00",
+                            "16:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 4.0,
+                    "user_rating_totals": 596
+                },
+                {
+                    "place_id": "ChIJTwELhlSUbjQRxjwKmZio7Ew",
+                    "place_name": "竹居茶樓",
+                    "lat": 23.4773,
+                    "lng": 120.477,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "03:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "03:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 3.9,
+                    "user_rating_totals": 3068
+                },
+                {
+                    "place_id": "ChIJ5TjOmiWUbjQRZGcb6J3csEI",
+                    "place_name": "呆獅雞肉飯",
+                    "lat": 23.4753,
+                    "lng": 120.444,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "20:20:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "20:20:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.9,
+                    "user_rating_totals": 2694
+                },
+                {
+                    "place_id": "ChIJi4JWcDSUbjQRXo0Wt5Wov1Y",
+                    "place_name": "半畝田北方麵食館-嘉特產協",
+                    "lat": 23.4775,
+                    "lng": 120.461,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "14:30:00",
+                            "17:00:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 3.9,
+                    "user_rating_totals": 1046
+                },
+                {
+                    "place_id": "ChIJowqTYTGUbjQR4YfBENDSomk",
+                    "place_name": "葉記牛肉館",
+                    "lat": 23.4799,
+                    "lng": 120.451,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:30:00",
+                            "16:00:00",
+                            "17:00:00",
+                            "19:30:00"
+                        ],
+                        "6": [
+                            "11:30:00",
+                            "16:00:00",
+                            "17:00:00",
+                            "19:30:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 3.9,
+                    "user_rating_totals": 546
+                },
+                {
+                    "place_id": "ChIJO5OmzC-UbjQReXp5qX5ZdQI",
+                    "place_name": "20元大飯店",
+                    "lat": 23.4785,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.8,
+                    "user_rating_totals": 1639
+                },
+                {
+                    "place_id": "ChIJt17dEI-WbjQRYPMTm5_mCG4",
+                    "place_name": "諸羅山火雞肉飯",
+                    "lat": 23.4844,
+                    "lng": 120.422,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "20:00:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "20:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 3.8,
+                    "user_rating_totals": 617
+                },
+                {
+                    "place_id": "ChIJFblrGjSUbjQRVPCOl2blsx0",
+                    "place_name": "劉里長雞肉飯",
+                    "lat": 23.4799,
+                    "lng": 120.454,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "07:30:00",
+                            "14:30:00",
+                            "16:00:00",
+                            "19:00:00"
+                        ],
+                        "6": [
+                            "07:30:00",
+                            "14:30:00",
+                            "16:00:00",
+                            "19:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 3.7,
+                    "user_rating_totals": 8604
+                },
+                {
+                    "place_id": "ChIJXS2ixiaUbjQRhs_ygX6LtkU",
+                    "place_name": "嘉義噴水雞肉飯-博愛店 | 嘉義西區美食 | 門口可停車",
+                    "lat": 23.4661,
+                    "lng": 120.426,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.7,
+                    "user_rating_totals": 2279
+                },
+                {
+                    "place_id": "ChIJyy85MS-UbjQRGj52vNuRFds",
+                    "place_name": "三雅嘉義火雞肉飯(50年老店)",
+                    "lat": 23.4784,
+                    "lng": 120.442,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "09:00:00",
+                            "20:30:00"
+                        ],
+                        "6": [
+                            "09:00:00",
+                            "20:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.7,
+                    "user_rating_totals": 699
+                },
+                {
+                    "place_id": "ChIJXxoEFi6UbjQReQ3oJJtf9kI",
+                    "place_name": "台灣魯肉飯民生店",
+                    "lat": 23.4799,
+                    "lng": 120.446,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "11:00:00",
+                            "00:00:00"
+                        ],
+                        "6": [
+                            "11:00:00",
+                            "00:00:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.7,
+                    "user_rating_totals": 602
+                },
+                {
+                    "place_id": "ChIJaZRCpjGUbjQRk0JZdpwbdIE",
+                    "place_name": "焦家好味道",
+                    "lat": 23.4784,
+                    "lng": 120.45,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:30:00",
+                            "00:30:00"
+                        ],
+                        "6": [
+                            "10:30:00",
+                            "00:30:00"
+                        ]
+                    },
+                    "price_level": 0,
+                    "rating": 3.5,
+                    "user_rating_totals": 965
+                },
+                {
+                    "place_id": "ChIJjXe-pjGUbjQR2d309cv18cE",
+                    "place_name": "郭家雞肉飯",
+                    "lat": 23.4785,
+                    "lng": 120.45,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "03:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "03:00:00"
+                        ]
+                    },
+                    "price_level": 1,
+                    "rating": 3.4,
+                    "user_rating_totals": 7738
+                },
+                {
+                    "place_id": "ChIJQS5WjjGUbjQRgHVFSj2rv4Q",
+                    "place_name": "嘉義噴水雞肉飯中山店",
+                    "lat": 23.4797,
+                    "lng": 120.449,
+                    "types": [
+                        "restaurant"
+                    ],
+                    "opening_hour": {
+                        "0": [
+                            "10:00:00",
+                            "21:00:00"
+                        ],
+                        "6": [
+                            "10:00:00",
+                            "21:00:00"
+                        ]
+                    },
+                    "price_level": 2,
+                    "rating": 2.9,
+                    "user_rating_totals": 5096
+                }
+            ]
+        }

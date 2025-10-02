@@ -1,0 +1,11 @@
+.idea
+env1
+deap
+learning
+__pycache__
+*.pyc
+.DS_Store
+migrations/
+flask_session/
+deprecated/
+*.log

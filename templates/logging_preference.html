@@ -1,0 +1,403 @@
+<div class="form-section lodging-preferences mb-4">
+    <h5 class="section-title mb-3">住宿偏好設定</h5>
+
+    <!-- 基本信息 -->
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <label for="guestQty" class="form-label">入住人數 *</label>
+            <select class="form-select" id="guestQty" name="guestQty" required>
+                {% for i in range(1, 11) %}
+                <option value="{{ i }}">{{ i }}人</option>
+                {% endfor %}
+            </select>
+            <div class="invalid-feedback">請選擇入住人數</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="roomQty" class="form-label">房間數量 *</label>
+            <select class="form-select" id="roomQty" name="roomQty" required>
+                {% for i in range(1, 6) %}
+                <option value="{{ i }}">{{ i }}間</option>
+                {% endfor %}
+            </select>
+            <div class="invalid-feedback">請選擇房間數量</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="lodgingMinPrice" class="form-label">每晚最低價格 (TWD)</label>
+            <input type="number" class="form-control" id="lodgingMinPrice" name="lodgingMinPrice"
+                   min="0" step="100" placeholder="輸入最低價格">
+        </div>
+
+        <div class="col-md-6">
+            <label for="lodgingMaxPrice" class="form-label">每晚最高價格 (TWD)</label>
+            <input type="number" class="form-control" id="lodgingMaxPrice" name="lodgingMaxPrice"
+                   min="0" step="100" placeholder="輸入最高價格">
+        </div>
+
+        <div class="col-md-6">
+            <label for="minReviewScore" class="form-label">最低評分要求</label>
+            <select class="form-select" id="minReviewScore" name="minReviewScore">
+                <option value="">不限制</option>
+                <option value="6">6.0 以上 (不錯)</option>
+                <option value="7">7.0 以上 (好)</option>
+                <option value="8">8.0 以上 (很好)</option>
+                <option value="9">9.0 以上 (太棒了)</option>
+            </select>
+        </div>
+
+        <div class="col-md-6">
+            <label for="sortBy" class="form-label">排序方式</label>
+            <select class="form-select" id="sortBy" name="sortBy">
+                <option value="popularity">熱門程度</option>
+                <option value="price">價格（低到高）</option>
+                <option value="-price">價格（高到低）</option>
+                <option value="review_score">評分</option>
+                <option value="distance">距離市中心</option>
+                <option value="star_rating">星級評等</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- 住宿類型 -->
+    <div class="mb-4">
+        <label class="form-label d-block">住宿類型</label>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="hotel" id="typeHotel">
+                    <label class="form-check-label" for="typeHotel">飯店</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="apartment" id="typeApartment">
+                    <label class="form-check-label" for="typeApartment">公寓</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="resort" id="typeResort">
+                    <label class="form-check-label" for="typeResort">度假村</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="villa" id="typeVilla">
+                    <label class="form-check-label" for="typeVilla">別墅</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="guest_house" id="typeGuestHouse">
+                    <label class="form-check-label" for="typeGuestHouse">民宿</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="hostel" id="typeHostel">
+                    <label class="form-check-label" for="typeHostel">背包客棧</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="bed_and_breakfast" id="typeBnB">
+                    <label class="form-check-label" for="typeBnB">家庭式旅館</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="propertyTypes[]" value="ryokan" id="typeRyokan">
+                    <label class="form-check-label" for="typeRyokan">日式旅館</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 星級要求 -->
+    <div class="mb-4">
+        <label class="form-label d-block">星級要求</label>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-2">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="starRating[]" value="1" id="star1">
+                    <label class="form-check-label" for="star1">1星級</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="starRating[]" value="2" id="star2">
+                    <label class="form-check-label" for="star2">2星級</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="starRating[]" value="3" id="star3">
+                    <label class="form-check-label" for="star3">3星級</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="starRating[]" value="4" id="star4">
+                    <label class="form-check-label" for="star4">4星級</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="starRating[]" value="5" id="star5">
+                    <label class="form-check-label" for="star5">5星級</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 設施與服務 -->
+    <div class="mb-4">
+        <label class="form-label d-block">設施與服務</label>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+            <!-- 基本設施 -->
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="wifi" id="wifi">
+                    <label class="form-check-label" for="wifi">免費WiFi</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="parking" id="parking">
+                    <label class="form-check-label" for="parking">停車場</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="air_conditioning" id="airConditioning">
+                    <label class="form-check-label" for="airConditioning">空調</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="restaurant" id="restaurant">
+                    <label class="form-check-label" for="restaurant">餐廳</label>
+                </div>
+            </div>
+
+            <!-- 額外設施 -->
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="pool" id="pool">
+                    <label class="form-check-label" for="pool">游泳池</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="fitness_center" id="fitnessCenter">
+                    <label class="form-check-label" for="fitnessCenter">健身中心</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="spa" id="spa">
+                    <label class="form-check-label" for="spa">SPA中心</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="hot_tub" id="hotTub">
+                    <label class="form-check-label" for="hotTub">熱水浴缸</label>
+                </div>
+            </div>
+
+            <!-- 服務 -->
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="room_service" id="roomService">
+                    <label class="form-check-label" for="roomService">客房服務</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="airport_shuttle" id="airportShuttle">
+                    <label class="form-check-label" for="airportShuttle">機場接駁</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="beach_access" id="beachAccess">
+                    <label class="form-check-label" for="beachAccess">海灘通道</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="facilities[]" value="business_facilities" id="businessFacilities">
+                    <label class="form-check-label" for="businessFacilities">商務設施</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 房間設施 -->
+    <div class="mb-4">
+        <label class="form-label d-block">房間設施</label>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="roomFacilities[]" value="private_bathroom" id="privateBathroom">
+                    <label class="form-check-label" for="privateBathroom">私人衛浴</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="roomFacilities[]" value="kitchen" id="kitchen">
+                    <label class="form-check-label" for="kitchen">廚房設備</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="roomFacilities[]" value="balcony" id="balcony">
+                    <label class="form-check-label" for="balcony">陽台</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="roomFacilities[]" value="view" id="view">
+                    <label class="form-check-label" for="view">景觀房</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 膳食選項 -->
+    <div class="mb-4">
+        <label class="form-label d-block">膳食選項</label>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="mealTypes[]" value="breakfast_included" id="breakfastIncluded">
+                    <label class="form-check-label" for="breakfastIncluded">含早餐</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="mealTypes[]" value="breakfast_dinner_included" id="breakfastDinnerIncluded">
+                    <label class="form-check-label" for="breakfastDinnerIncluded">含早晚餐</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="mealTypes[]" value="all_inclusive" id="allInclusive">
+                    <label class="form-check-label" for="allInclusive">全包式</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="mealTypes[]" value="kitchen_availability" id="kitchenAvailability">
+                    <label class="form-check-label" for="kitchenAvailability">可使用廚房</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 無障礙設施 -->
+    <div class="mb-4">
+        <label class="form-label d-block">無障礙設施</label>
+        <div class="row row-cols-2 row-cols-md-3 g-2">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="accessibility[]" value="wheelchair_accessible" id="wheelchairAccessible">
+                    <label class="form-check-label" for="wheelchairAccessible">輪椅通道</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="accessibility[]" value="elevator" id="elevator">
+                    <label class="form-check-label" for="elevator">電梯</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="accessibility[]" value="accessible_bathroom" id="accessibleBathroom">
+                    <label class="form-check-label" for="accessibleBathroom">無障礙浴室</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 附加偏好 -->
+    <div class="mb-4">
+        <label class="form-label d-block">附加偏好</label>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="preferences[]" value="beach_front" id="beachFront">
+                    <label class="form-check-label" for="beachFront">濱海住宿</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="preferences[]" value="city_center" id="cityCenter">
+                    <label class="form-check-label" for="cityCenter">市中心</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="preferences[]" value="quiet" id="quiet">
+                    <label class="form-check-label" for="quiet">安靜地區</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="preferences[]" value="family_friendly" id="familyFriendly">
+                    <label class="form-check-label" for="familyFriendly">親子友善</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 其他篩選條件 -->
+    <div class="mb-4">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label for="distanceFromCenter" class="form-label">距離市中心最大距離 (公里)</label>
+                <select class="form-select" id="distanceFromCenter" name="distanceFromCenter">
+                    <option value="">不限制</option>
+                    <option value="1">1公里以內</option>
+                    <option value="2">2公里以內</option>
+                    <option value="5">5公里以內</option>
+                    <option value="10">10公里以內</option>
+                    <option value="15">15公里以內</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label for="freeCancellation" class="form-label">取消政策</label>
+                <select class="form-select" id="freeCancellation" name="freeCancellation">
+                    <option value="">所有政策</option>
+                    <option value="free_cancellation">免費取消</option>
+                    <option value="no_prepayment">無需預付款</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label for="bedPreference" class="form-label">床型偏好</label>
+                <select class="form-select" id="bedPreference" name="bedPreference">
+                    <option value="">不指定</option>
+                    <option value="single">單人床</option>
+                    <option value="double">雙人床</option>
+                    <option value="twin">兩張單人床</option>
+                    <option value="king">特大床</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label for="roomView" class="form-label">房間景觀</label>
+                <select class="form-select" id="roomView" name="roomView">
+                    <option value="">不指定</option>
+                    <option value="sea_view">海景</option>
+                    <option value="city_view">城市景觀</option>
+                    <option value="mountain_view">山景</option>
+                    <option value="garden_view">花園景觀</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
